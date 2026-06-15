@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Progression Techno Cycle 4 · BO 2024 · 5ème · 4ème · 3ème</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iOCIgZmlsbD0iIzdjM2FlZCIvPjxwYXRoIGQ9Ik0xNiAxMGE2IDYgMCAxIDAgMCAxMiA2IDYgMCAwIDAgMC0xMnptMCA5LjVhMy41IDMuNSAwIDEgMSAwLTcgMy41IDMuNSAwIDAgMSAwIDd6IiBmaWxsPSJ3aGl0ZSIgb3BhY2l0eT0iMC45Ii8+PHBhdGggZD0iTTE2IDd2Mk0xNiAyM3YyTTcgMTZoMk0yMyAxNmgyTTkuNSA5LjVsMS40IDEuNE0yMS4xIDIxLjFsMS40IDEuNE05LjUgMjIuNWwxLjQtMS40TTIxLjEgMTAuOWwxLjQtMS40IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==">
+<style>:root{
+  --bg:#f5f3ff;--bg2:#ede9fe;--bg3:#ddd6fe;
+  --sf:#fff;--sf2:#faf9ff;--bd:#e0d9ff;--bd2:#c4b5fd;
+  --vio:#7c3aed;--vio-bg:#f5f3ff;--vio-lt:#ddd6fe;--vio-dk:#5b21b6;
+  --teal:#0e7490;--teal-bg:#ecfeff;
+  --ora:#c2410c;--ora-bg:#fff7ed;--ora-lt:#fed7aa;--ora-dk:#9a3412;
+  --green:#1a8c3d;--green-bg:#e4f7ea;
+  --amber:#c97800;--amber-bg:#fef5de;
+  --purple:#6d28d9;--purple-bg:#ede9fe;
+  --red:#c73535;--red-bg:#fde8e8;
+  --text:#1c1c1f;--dim:#6b6b6a;--lt:#aaa;
+  --sh1:0 1px 4px rgba(0,0,0,.07),0 1px 8px rgba(0,0,0,.04);
+  --sh2:0 3px 12px rgba(0,0,0,.10),0 1px 4px rgba(0,0,0,.05);
+  --sh3:0 10px 32px rgba(0,0,0,.14),0 2px 8px rgba(0,0,0,.07);
+  --r:10px;--r2:7px;--r3:5px;--sw:272px;--hh:56px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow-x:hidden}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,Arial,sans-serif;background:var(--bg);color:var(--text);font-size:14px;line-height:1.5}
+button{cursor:pointer;font-family:inherit}input,select,textarea{font-family:inherit;font-size:14px}a{color:var(--vio)}
+::-webkit-scrollbar{width:4px;height:4px}::-webkit-scrollbar-thumb{background:var(--bd2);border-radius:2px}
+.hdr{position:fixed;top:0;left:0;right:0;height:var(--hh);background:var(--sf);border-bottom:1.5px solid var(--bd);display:flex;align-items:center;gap:8px;padding:0 14px;z-index:300;box-shadow:var(--sh1)}
+.ham{width:36px;height:36px;display:flex;align-items:center;justify-content:center;background:none;border:1.5px solid var(--bd2);border-radius:7px;font-size:1rem;flex-shrink:0;color:var(--dim)}
+.logo{display:flex;align-items:center;gap:8px;flex-shrink:0;cursor:pointer}
+.logo-ico{width:32px;height:32px;background:linear-gradient(135deg,#7c3aed,#9f67fa);border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 2px 8px rgba(124,58,237,.35)}
+.logo-txt{display:flex;flex-direction:column}
+.logo-name{font-size:.83rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;color:var(--vio);line-height:1.1;white-space:nowrap}
+.logo-sub{font-size:.55rem;font-weight:500;color:var(--dim);letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+.hdr-chips{flex:1;min-width:0;overflow-x:auto;display:flex;align-items:center;gap:5px;padding:0 6px;scrollbar-width:none}
+.hdr-chips::-webkit-scrollbar{display:none}
+.chip{flex-shrink:0;display:inline-flex;align-items:center;gap:4px;padding:4px 11px;border-radius:20px;border:1.5px solid var(--bd2);font-size:.69rem;font-weight:600;cursor:pointer;background:var(--sf2);color:var(--dim);transition:all .15s;white-space:nowrap;max-width:170px}
+.chip:hover{border-color:var(--vio);color:var(--vio)}.chip.act{font-weight:700}
+.chip .dot{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.chip-lbl{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:130px}
+.chip-add{flex-shrink:0;padding:4px 10px;border-radius:20px;border:1.5px dashed var(--bd2);background:none;color:var(--dim);font-size:.69rem;font-weight:600;transition:all .15s;cursor:pointer;white-space:nowrap}
+.chip-add:hover{border-color:var(--vio);color:var(--vio)}
+.hdr-acts{display:flex;align-items:center;gap:4px;flex-shrink:0}
+.hbtn{position:relative;padding:6px 10px;border-radius:var(--r2);border:1px solid var(--bd2);background:var(--sf);color:var(--dim);font-size:.69rem;font-weight:600;white-space:nowrap;transition:all .15s;display:flex;align-items:center;gap:3px;cursor:pointer}
+.hbtn:hover{border-color:var(--vio);color:var(--vio)}
+.hbtn .t{display:inline}
+.hbtn-tip{position:absolute;top:calc(100% + 7px);right:0;background:#222;color:#fff;font-size:.66rem;padding:6px 10px;border-radius:6px;white-space:normal;width:200px;pointer-events:none;opacity:0;transition:opacity .15s;z-index:999;line-height:1.5;text-align:left;box-shadow:0 4px 12px rgba(0,0,0,.25)}
+.hbtn:hover .hbtn-tip{opacity:1}
+.hbtn-tip::before{content:'';position:absolute;top:-5px;right:12px;border-left:5px solid transparent;border-right:5px solid transparent;border-bottom:5px solid #222}
+.undo-bar{display:none;position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:#333;color:#fff;font-size:.73rem;padding:7px 16px;border-radius:20px;z-index:600;gap:10px;align-items:center;box-shadow:var(--sh2)}
+.undo-bar.on{display:flex}
+.ub-btn{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);color:#fff;font-size:.68rem;padding:3px 10px;border-radius:12px;cursor:pointer}
+.ub-btn:hover{background:rgba(255,255,255,.25)}
+.sb-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.42);z-index:199}
+.sb-bg.on{display:block}
+.sidebar{position:fixed;top:var(--hh);left:0;width:var(--sw);height:calc(100vh - var(--hh));background:var(--sf);border-right:1px solid var(--bd);display:flex;flex-direction:column;z-index:200;transition:transform .22s ease}
+.sb-scroll{flex:1;overflow-y:auto}
+.sb-sec{font-size:.57rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--lt);padding:13px 13px 4px}
+.sb-mobile-acts{display:none;padding:8px 9px;border-bottom:1px solid var(--bd);gap:5px;flex-wrap:wrap}
+.sbact{display:flex;align-items:center;gap:4px;padding:8px 10px;border-radius:var(--r2);border:1px solid var(--bd2);background:var(--sf2);color:var(--dim);font-size:.73rem;font-weight:600;cursor:pointer;transition:all .15s;flex:1;min-width:110px;justify-content:center}
+.sbact:hover{border-color:var(--vio);color:var(--vio)}
+.scc{margin:4px 9px;padding:9px 11px;background:var(--sf2);border:1.5px solid var(--bd);border-radius:var(--r2);cursor:pointer;transition:all .15s}
+.scc:hover{border-color:var(--vio-lt)}
+.scc-head{display:flex;align-items:center;gap:7px;margin-bottom:5px}
+.scc-dot{width:8px;height:32px;border-radius:3px;flex-shrink:0}
+.scc-inf{flex:1;min-width:0}
+.scc-nm{font-size:.8rem;font-weight:700;color:#1c1c1f;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.scc-meta{font-size:.61rem;color:var(--dim);margin-top:1px}
+.scc-acts{display:flex;gap:3px}
+.scc-btn{background:rgba(0,0,0,.05);border:1px solid rgba(0,0,0,.1);padding:4px 7px;border-radius:var(--r3);font-size:.63rem;color:var(--dim);cursor:pointer;transition:all .15s;font-weight:600}
+.scc-btn:hover{background:var(--vio-bg);border-color:var(--vio);color:var(--vio)}
+.scc-btn.del{background:rgba(199,53,53,.07);border-color:rgba(199,53,53,.2);color:var(--red)}
+.scc-btn.del:hover{background:var(--red-bg);border-color:var(--red)}
+.scc-prog{display:flex;align-items:center;gap:6px}
+.scc-bw{flex:1;height:4px;background:var(--bg3);border-radius:2px;overflow:hidden}
+.scc-b{height:100%;border-radius:2px;transition:width .4s}.scc-pct{font-size:.63rem;font-weight:700;flex-shrink:0}
+.sb-add-cls{display:flex;align-items:center;justify-content:center;gap:5px;margin:5px 9px;padding:8px;border:1.5px dashed var(--bd2);border-radius:var(--r2);background:none;color:var(--dim);font-size:.71rem;font-weight:600;cursor:pointer;transition:all .15s;width:calc(100% - 18px)}
+.sb-add-cls:hover{border-color:var(--vio);color:var(--vio)}
+.nav-row{display:flex;align-items:center;gap:7px;padding:7px 10px 7px 14px;cursor:pointer;border-left:3px solid transparent;transition:background .12s;user-select:none}
+.nav-row:hover{background:var(--sf2)}.nav-row.act{background:var(--vio-bg);border-left-color:var(--vio)}
+.nav-row.act .nav-nm{color:var(--vio);font-weight:600}.nav-row.act .nav-pc{color:var(--vio)}
+.nav-ico{font-size:.78rem;flex-shrink:0;width:18px;text-align:center}
+.nav-nm{flex:1;font-size:.74rem;font-weight:500;color:var(--text);line-height:1.3}
+.nav-pc{font-size:.64rem;font-weight:700;color:var(--dim)}
+.nav-del{display:none;background:rgba(199,53,53,.08);border:1px solid rgba(199,53,53,.2);color:var(--red);font-size:.68rem;padding:3px 6px;border-radius:5px;cursor:pointer;font-weight:700}
+.nav-row:hover .nav-del{display:flex;align-items:center}.nav-del:hover{background:var(--red-bg);border-color:var(--red)}
+.nav-projects{display:flex;align-items:center;gap:7px;padding:7px 10px 7px 14px;cursor:pointer;border-left:3px solid transparent;transition:background .12s;border-top:1px solid var(--bd);margin-top:4px}
+.nav-projects:hover{background:var(--ora-bg)}.nav-projects.act{background:var(--ora-bg);border-left-color:var(--ora)}
+.nav-projects.act .nav-nm{color:var(--ora);font-weight:600}
+.sb-add-dom{display:flex;align-items:center;gap:5px;margin:3px 9px;padding:6px 9px;border:1.5px dashed var(--bd2);border-radius:var(--r2);background:none;color:var(--dim);font-size:.68rem;font-weight:500;width:calc(100% - 18px);cursor:pointer;transition:all .15s;text-align:left}
+.sb-add-dom:hover{border-color:var(--vio);color:var(--vio)}
+.sb-ft{flex-shrink:0;padding:9px 11px;border-top:1px solid var(--bd)}
+.sb-ftl{font-size:.64rem;color:var(--lt);background:none;border:none;text-align:left;padding:3px 2px;cursor:pointer;transition:color .15s;display:block;width:100%}
+.sb-ftl:hover{color:var(--dim)}
+.sb-cred{font-size:.59rem;color:#c8c2b8;margin-top:5px;display:flex;gap:8px}
+.sb-cred a{color:#c8c2b8;text-decoration:none}.sb-cred a:hover{color:var(--dim)}
+.main{margin-left:var(--sw);margin-top:var(--hh);min-height:calc(100vh - var(--hh));padding:22px 26px 80px}
+.home-hero{background:linear-gradient(135deg,#7c3aed 0%,#9f67fa 55%,#5b21b6 100%);border-radius:14px;padding:26px 30px;color:#fff;margin-bottom:20px;position:relative;overflow:hidden;box-shadow:var(--sh2)}
+.home-hero h1{font-size:1.7rem;font-weight:900;letter-spacing:.04em;text-transform:uppercase;margin-bottom:7px;line-height:1.15}
+.home-hero p{font-size:.81rem;opacity:.88;line-height:1.7;max-width:480px;margin-bottom:16px}
+.hero-btns{display:flex;gap:8px;flex-wrap:wrap}
+.hbtn-hero{padding:8px 16px;border-radius:var(--r2);font-size:.76rem;font-weight:700;cursor:pointer;border:none;transition:all .15s}
+.hbtn-hero.pri{background:#fff;color:var(--vio)}.hbtn-hero.pri:hover{background:#ede9fe}
+.hbtn-hero.sec{background:rgba(255,255,255,.16);color:#fff;border:1.5px solid rgba(255,255,255,.35)}.hbtn-hero.sec:hover{background:rgba(255,255,255,.26)}
+.guide-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:9px;margin-bottom:20px}
+.guide-card{background:var(--sf);border:1px solid var(--bd);border-radius:var(--r);padding:14px 14px 12px;box-shadow:var(--sh1)}
+.guide-ico{font-size:1.4rem;margin-bottom:6px}
+.guide-ttl{font-size:.79rem;font-weight:700;margin-bottom:3px;color:var(--text)}
+.guide-txt{font-size:.7rem;color:var(--dim);line-height:1.55}
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px}
+.stat-c{background:var(--sf);border:1px solid var(--bd);border-radius:var(--r);padding:10px 12px;box-shadow:var(--sh1)}
+.stat-n{font-size:1.25rem;font-weight:800;line-height:1}.stat-l{font-size:.61rem;color:var(--dim);margin-top:2px}
+.dom-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:16px}
+.dcard{background:var(--sf);border:1px solid var(--bd);border-radius:var(--r);padding:14px;cursor:pointer;box-shadow:var(--sh1);transition:box-shadow .18s,transform .15s}
+.dcard:hover{box-shadow:var(--sh2);transform:translateY(-1px)}
+.dc-ico{font-size:1.3rem;margin-bottom:6px}.dc-nm{font-size:.8rem;font-weight:700;margin-bottom:2px;line-height:1.3;color:var(--text)}
+.dc-sb{font-size:.64rem;color:var(--dim);margin-bottom:8px}
+.bw{height:5px;background:var(--bg3);border-radius:3px;overflow:hidden}.b{height:100%;border-radius:3px;transition:width .4s}
+.pct-t{font-size:.65rem;font-weight:700;margin-top:3px}
+.dom-tag{display:inline-flex;align-items:center;gap:5px;font-size:.6rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:3px 10px;border-radius:20px;margin-bottom:6px}
+.dom-ttl{font-size:1.15rem;font-weight:800;letter-spacing:-.3px;margin-bottom:3px}
+.dom-desc{font-size:.76rem;color:var(--dim);max-width:540px;line-height:1.65;margin-bottom:9px}
+.dom-prog{display:flex;align-items:center;gap:8px;margin-bottom:11px}
+.dp-bw{flex:1;max-width:200px;height:7px;background:var(--bg3);border-radius:4px;overflow:hidden}.dp-b{height:100%;border-radius:4px;transition:width .4s}
+.dp-pct{font-weight:700;font-size:.83rem}.dp-inf{font-size:.66rem;color:var(--dim)}
+.legend{display:flex;gap:11px;flex-wrap:wrap;padding:7px 11px;background:var(--sf);border:1px solid var(--bd);border-radius:var(--r2);margin-bottom:10px;box-shadow:var(--sh1)}
+.li{display:flex;align-items:center;gap:4px;font-size:.63rem;color:var(--dim)}
+.ldot{width:7px;height:7px;border-radius:2px;flex-shrink:0}
+.mc{background:var(--sf);border:1px solid var(--bd);border-radius:var(--r);margin-bottom:7px;box-shadow:var(--sh1);overflow:hidden;transition:box-shadow .2s}
+.mc:hover{box-shadow:var(--sh2)}
+.mc-hd{display:flex;align-items:center;gap:8px;padding:10px 11px;cursor:pointer;user-select:none}
+.mc-ico{width:30px;height:30px;border-radius:7px;display:flex;align-items:center;justify-content:center;font-size:.78rem;flex-shrink:0}
+.mc-inf{flex:1;min-width:0}
+.mc-nm{font-weight:700;font-size:.81rem;color:var(--text);margin-bottom:1px;line-height:1.3}
+.mc-note{font-size:.6rem;color:var(--dim);margin-bottom:2px}
+.mc-bw{width:95px;height:4px;background:var(--bg3);border-radius:2px;overflow:hidden}.mc-b{height:100%;border-radius:2px;transition:width .4s}
+.mc-rt{display:flex;align-items:center;gap:3px;flex-shrink:0}
+.mc-pct{font-weight:700;font-size:.73rem;min-width:26px;text-align:right}
+.ev-btn{display:flex;align-items:center;gap:3px;font-size:.61rem;font-weight:600;color:var(--dim);padding:4px 7px;border-radius:5px;background:rgba(0,0,0,.05);border:1px solid rgba(0,0,0,.1);transition:all .15s;white-space:nowrap;cursor:pointer}
+.ev-btn:hover{background:var(--green-bg);border-color:var(--green);color:var(--green)}.ev-btn.on{background:var(--green-bg);border-color:var(--green);color:var(--green)}
+.mc-all{display:flex;align-items:center;gap:2px;font-size:.61rem;font-weight:700;color:var(--green);padding:4px 7px;border-radius:5px;background:rgba(26,140,61,.1);border:1px solid rgba(26,140,61,.25);transition:all .15s;cursor:pointer;white-space:nowrap}
+.mc-all:hover{background:var(--green-bg);border-color:var(--green)}
+.mc-act{background:rgba(0,0,0,.05);border:1px solid rgba(0,0,0,.1);color:var(--dim);font-size:.72rem;padding:4px 7px;border-radius:5px;transition:all .15s;cursor:pointer;font-weight:600;line-height:1}
+.mc-act:hover{background:var(--vio-bg);border-color:var(--vio);color:var(--vio)}
+.mc-act.del{color:var(--red);background:rgba(199,53,53,.08);border-color:rgba(199,53,53,.2)}
+.mc-act.del:hover{background:var(--red-bg);border-color:var(--red)}
+.mc-chev{color:var(--dim);font-size:.65rem;transition:transform .2s;flex-shrink:0}
+.mc.open .mc-chev{transform:rotate(90deg)}
+.mc-body{display:none;border-top:1px solid var(--bd);padding:0 11px 11px}
+.mc.open .mc-body{display:block}
+.sec-hd{display:flex;align-items:center;gap:4px;padding:9px 0 4px}
+.sec-ttl{font-size:.57rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sec-btn{font-size:.68rem;padding:4px 7px;border-radius:5px;cursor:pointer;font-weight:700;transition:all .15s;line-height:1;border:1px solid}
+.sec-btn.add{color:var(--vio);background:rgba(124,58,237,.09);border-color:rgba(124,58,237,.22)}.sec-btn.add:hover{background:var(--vio-bg);border-color:var(--vio)}
+.sec-btn.del{color:var(--red);background:rgba(199,53,53,.09);border-color:rgba(199,53,53,.22)}.sec-btn.del:hover{background:var(--red-bg);border-color:var(--red)}
+.sec-btn.edt{color:var(--amber);background:rgba(201,120,0,.09);border-color:rgba(201,120,0,.22)}.sec-btn.edt:hover{background:var(--amber-bg);border-color:var(--amber)}
+.nr{display:flex;align-items:flex-start;gap:7px;padding:3px 5px;border-radius:4px;transition:background .1s}
+.nr:hover{background:var(--sf2)}
+/* Diagram notions — special highlight */
+.nr.diagram-row{background:rgba(124,58,237,.04);border-left:2.5px solid rgba(124,58,237,.3);padding-left:7px}
+.nr.diagram-row:hover{background:rgba(124,58,237,.09)}
+.sts{width:20px;height:20px;border-radius:5px;border:1.5px solid var(--bd2);background:var(--sf);flex-shrink:0;margin-top:2px;display:flex;align-items:center;justify-content:center;font-size:.52rem;transition:all .12s;cursor:pointer}
+.sts:hover{transform:scale(1.1)}.sts.s1{border-color:var(--amber);background:var(--amber-bg);color:var(--amber)}.sts.s2{border-color:var(--purple);background:var(--purple-bg);color:var(--purple)}.sts.s3{border-color:var(--green);background:var(--green-bg);color:var(--green)}
+.mtxt{font-size:.76rem;color:var(--text);line-height:1.5;flex:1}.mtxt.done{color:var(--dim);text-decoration:line-through}
+.nedit-inp{flex:1;font-size:.75rem;padding:2px 6px;border:1.5px solid var(--vio);border-radius:4px;background:#fff;outline:none;display:none}
+.nr.editing .mtxt{display:none}.nr.editing .nedit-inp{display:block}
+.nmeta{display:flex;flex-direction:column;align-items:flex-end;gap:2px;flex-shrink:0}
+.nbg{font-size:.53rem;padding:1px 5px;border-radius:6px;font-weight:600;white-space:nowrap}
+.nb0{display:none}.nb1{background:var(--amber-bg);color:var(--amber)}.nb2{background:var(--purple-bg);color:var(--purple)}.nb3{background:var(--green-bg);color:var(--green)}
+.ndate{font-size:.53rem;color:var(--lt)}
+.nspiral-wrap{display:flex;flex-direction:column;gap:1px}
+.nspiral{font-size:.52rem;color:var(--teal);background:var(--teal-bg);padding:1px 5px;border-radius:5px;font-weight:600;white-space:nowrap;display:block}
+.nr-acts{display:flex;gap:2px;opacity:0;transition:opacity .12s}
+.nr:hover .nr-acts{opacity:1}
+.nr-act{font-size:.65rem;padding:3px 6px;color:var(--dim);border-radius:5px;cursor:pointer;transition:all .12s;font-weight:700;border:1px solid rgba(0,0,0,.1);background:rgba(0,0,0,.05);line-height:1}
+.nr-act:hover{background:var(--vio-bg);border-color:var(--vio);color:var(--vio)}
+.nr-act.del{color:var(--red);background:rgba(199,53,53,.09);border-color:rgba(199,53,53,.22)}.nr-act.del:hover{background:var(--red-bg);border-color:var(--red)}
+.nr-act.spiral{color:var(--teal);background:rgba(14,116,144,.09);border-color:rgba(14,116,144,.22)}.nr-act.spiral:hover{background:var(--teal-bg);border-color:var(--teal)}.nr-act.spiral.on{background:var(--teal-bg);border-color:var(--teal);opacity:1!important}
+.add-nr-row{display:flex;align-items:center;gap:5px;padding:4px;margin-top:2px}
+.add-inp{flex:1;padding:5px 8px;border:1px solid var(--bd2);border-radius:var(--r3);font-size:.74rem;background:var(--sf2);color:var(--text);outline:none}.add-inp:focus{border-color:var(--vio)}
+.add-ok{padding:5px 9px;background:var(--vio);color:#fff;border:none;border-radius:var(--r3);font-size:.69rem;font-weight:600;cursor:pointer}
+.add-cancel{padding:5px 8px;background:none;border:1px solid var(--bd2);border-radius:var(--r3);font-size:.69rem;color:var(--dim);cursor:pointer}
+.add-mod-btn{display:flex;align-items:center;gap:5px;width:100%;margin-top:6px;padding:9px 12px;border:1.5px dashed var(--bd2);border-radius:var(--r);background:none;color:var(--dim);font-size:.72rem;font-weight:500;transition:all .15s;text-align:left;cursor:pointer}.add-mod-btn:hover{border-color:var(--vio);color:var(--vio)}
+.add-sec-btn{display:flex;align-items:center;gap:5px;width:100%;margin:3px 0;padding:6px 9px;border:1px dashed var(--bd2);border-radius:var(--r2);background:none;color:var(--dim);font-size:.67rem;font-weight:500;cursor:pointer;transition:all .15s;text-align:left}.add-sec-btn:hover{border-color:var(--vio);color:var(--vio)}
+/* Projects */
+.prj-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;margin-bottom:16px}
+.prj-card{background:var(--sf);border:1px solid var(--bd);border-radius:var(--r);padding:14px;box-shadow:var(--sh1);transition:box-shadow .18s}
+.prj-card:hover{box-shadow:var(--sh2)}
+.prj-top{display:flex;align-items:flex-start;gap:8px;margin-bottom:8px}
+.prj-ico{font-size:1.2rem;flex-shrink:0;margin-top:1px}
+.prj-nm{font-size:.82rem;font-weight:700;color:var(--text);flex:1;line-height:1.3}
+.prj-theme{font-size:.63rem;font-weight:600;color:var(--vio);background:var(--vio-bg);padding:1px 7px;border-radius:10px;white-space:nowrap}
+.prj-desc{font-size:.72rem;color:var(--dim);line-height:1.55;margin-bottom:8px}
+.prj-tools{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px}
+.prj-tool{font-size:.58rem;font-weight:600;background:var(--bg2);color:var(--dim);padding:1px 6px;border-radius:5px;border:1px solid var(--bd2)}
+.prj-bw{height:5px;background:var(--bg3);border-radius:3px;overflow:hidden;margin-bottom:4px}
+.prj-b{height:100%;border-radius:3px;transition:width .4s}
+.prj-foot{display:flex;align-items:center;justify-content:space-between}
+.prj-status{font-size:.63rem;font-weight:700;padding:2px 8px;border-radius:10px}
+.ps0{background:var(--amber-bg);color:var(--amber)}.ps1{background:var(--vio-bg);color:var(--vio)}.ps2{background:var(--teal-bg);color:var(--teal)}.ps3{background:var(--green-bg);color:var(--green)}
+.prj-acts{display:flex;gap:3px}
+.prj-btn{background:rgba(0,0,0,.05);border:1px solid rgba(0,0,0,.1);color:var(--dim);font-size:.65rem;padding:3px 6px;border-radius:5px;cursor:pointer;transition:all .12s;font-weight:600}
+.prj-btn:hover{background:var(--vio-bg);border-color:var(--vio);color:var(--vio)}
+.prj-btn.del{color:var(--red);background:rgba(199,53,53,.08);border-color:rgba(199,53,53,.2)}.prj-btn.del:hover{background:var(--red-bg);border-color:var(--red)}
+.add-prj-btn{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;max-width:300px;padding:12px;border:1.5px dashed var(--bd2);border-radius:var(--r);background:none;color:var(--dim);font-size:.74rem;font-weight:600;cursor:pointer;transition:all .15s;margin-bottom:20px}
+.add-prj-btn:hover{border-color:var(--ora);color:var(--ora)}
+/* Modals */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.42);z-index:500;display:none;align-items:flex-start;justify-content:center;padding:14px;overflow-y:auto}
+.overlay.on{display:flex}
+.modal{background:var(--sf);border-radius:var(--r);width:100%;max-width:560px;box-shadow:var(--sh3);margin-top:16px}
+.modal.lg{max-width:820px}
+.mhd{padding:12px 15px;border-bottom:1px solid var(--bd);display:flex;align-items:center;gap:8px}
+.mhd-t{font-size:.82rem;font-weight:700;flex:1}
+.mx{background:rgba(0,0,0,.05);border:1px solid rgba(0,0,0,.1);font-size:.82rem;color:var(--dim);padding:4px 8px;border-radius:5px;cursor:pointer;font-weight:700}.mx:hover{background:var(--red-bg);color:var(--red);border-color:var(--red)}
+.mbody{padding:15px;overflow-y:auto;max-height:70vh}
+.mft{padding:0 15px 15px;display:flex;gap:6px;justify-content:flex-end;flex-wrap:wrap}
+.mb{padding:8px 14px;border-radius:var(--r2);border:none;font-size:.74rem;font-weight:600;cursor:pointer;transition:all .15s}
+.mb-p{background:var(--vio);color:#fff}.mb-p:hover{background:var(--vio-dk)}
+.mb-o{background:var(--ora);color:#fff}.mb-o:hover{background:var(--ora-dk)}
+.mb-s{background:var(--sf2);border:1.5px solid var(--bd2);color:var(--text)}.mb-s:hover{border-color:var(--vio);color:var(--vio)}
+.mb-g{background:var(--green);color:#fff}.mb-g:hover{background:#127a32}
+.fg{display:flex;flex-direction:column;gap:4px;margin-bottom:9px}
+.fg label{font-size:.69rem;font-weight:600}
+.fg input,.fg select,.fg textarea{padding:7px 9px;border:1.5px solid var(--bd2);border-radius:var(--r2);background:var(--sf);color:var(--text);transition:border-color .15s}
+.fg input:focus,.fg select:focus,.fg textarea:focus{outline:none;border-color:var(--vio)}
+.fg textarea{min-height:60px;resize:vertical}
+.fg2{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.cpick{display:flex;flex-wrap:wrap;gap:7px;margin-top:4px}
+.cpsw{width:26px;height:26px;border-radius:50%;cursor:pointer;border:3px solid transparent;transition:all .14s}.cpsw:hover{transform:scale(1.12)}
+.tool-pick{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+.tool-sw{padding:4px 10px;border-radius:20px;border:1.5px solid var(--bd2);background:var(--sf2);color:var(--dim);font-size:.7rem;font-weight:600;cursor:pointer;transition:all .14s}
+.tool-sw:hover{border-color:var(--vio);color:var(--vio)}.tool-sw.on{background:var(--vio-bg);border-color:var(--vio);color:var(--vio)}
+.rpt-out{border:1px solid var(--bd);border-radius:var(--r2);padding:15px;background:#fff;max-height:420px;overflow-y:auto;margin-top:10px;font-size:.72rem}
+.rpt-hd{text-align:center;padding-bottom:10px;border-bottom:2.5px solid var(--vio);margin-bottom:10px}
+.rpt-app{font-size:.88rem;font-weight:800;color:var(--vio)}
+.rpt-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-bottom:10px}
+.rpt-stat{text-align:center;background:var(--bg);border-radius:var(--r2);padding:7px}
+.rpt-sn{font-size:1.1rem;font-weight:800;color:var(--vio)}.rpt-sl{font-size:.59rem;color:var(--dim)}
+.rpt-dom{margin-bottom:9px}
+.rpt-dn{font-size:.73rem;font-weight:700;color:var(--vio);margin-bottom:3px}
+.rpt-mod{padding-left:9px;border-left:2px solid var(--bg3);margin-bottom:4px}
+.rpt-mn{font-size:.7rem;font-weight:600;margin-bottom:2px}
+.rpt-ev{font-size:.55rem;background:var(--green-bg);color:var(--green);padding:1px 4px;border-radius:5px;font-weight:700}
+.rpt-n{display:flex;align-items:baseline;gap:4px;font-size:.67rem;padding:1px 0;border-bottom:1px dotted var(--bd)}
+.rpt-nd{color:var(--lt);white-space:nowrap;font-size:.59rem}
+.rpt-diag{font-size:.58rem;color:var(--vio);background:var(--vio-bg);padding:1px 4px;border-radius:4px;font-weight:600}
+.rpt-spiral-badge{font-size:.58rem;color:var(--teal);background:var(--teal-bg);padding:1px 4px;border-radius:4px;font-weight:600;white-space:nowrap}
+.rpt-period{font-size:.69rem;font-weight:700;color:var(--vio);padding:7px 0 4px;border-top:1.5px solid var(--vio-lt);margin-top:6px;display:flex;align-items:center;gap:5px}
+.rpt-chr{display:grid;grid-template-columns:66px 60px 1fr;gap:4px;font-size:.67rem;padding:2px 0;border-bottom:1px dotted var(--bd);align-items:baseline}
+.rpt-chr.sp-row{background:var(--teal-bg);border-radius:3px;padding:2px 4px}
+.help-sec{margin-bottom:16px}
+.help-sec-ttl{font-size:.75rem;font-weight:700;color:var(--vio);margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid var(--bd)}
+.help-item{display:flex;gap:8px;margin-bottom:7px;font-size:.73rem;line-height:1.6}
+.help-item-ico{font-size:.9rem;flex-shrink:0;width:22px;text-align:center}
+.prose{font-size:.76rem;line-height:1.75;color:var(--text)}
+.prose h3{font-weight:700;margin:10px 0 4px;font-size:.79rem;color:var(--vio)}
+.prose p,.prose ul{margin-bottom:7px}.prose ul{margin-left:14px}.prose li{margin-bottom:2px}
+@media(max-width:768px){
+  .hdr-acts{display:none}.logo-sub{display:none}
+  .sidebar{transform:translateX(-100%);z-index:250;box-shadow:var(--sh3)}.sidebar.open{transform:translateX(0)}
+  .sb-mobile-acts{display:flex}
+  .main{margin-left:0;padding:12px 10px 80px}
+  .stats-row{grid-template-columns:1fr 1fr}.dom-grid{grid-template-columns:1fr 1fr}
+  .fg2{grid-template-columns:1fr}.mc-bw{display:none}
+  .rpt-stats{grid-template-columns:1fr 1fr}.home-hero h1{font-size:1.3rem}
+}
+@media(max-width:420px){.dom-grid{grid-template-columns:1fr}}
+@media(max-width:768px) and (orientation:landscape){.main{padding:10px 14px 50px}.home-hero{padding:14px 18px}.home-hero h1{font-size:1.1rem}}
+@media(min-width:769px) and (max-width:1024px){:root{--sw:235px}.main{padding:18px 18px 60px}.dom-grid{grid-template-columns:repeat(3,1fr)}}
+
+/* Level selector in modal */
+.lvl-pick{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+.lvl-sw{flex:1;min-width:90px;padding:9px 10px;border-radius:var(--r2);border:1.5px solid var(--bd2);background:var(--sf2);color:var(--dim);font-size:.74rem;font-weight:600;cursor:pointer;transition:all .14s;text-align:center}
+.lvl-sw:hover{border-color:var(--vio);color:var(--vio)}
+.lvl-sw.on{background:var(--vio-bg);border-color:var(--vio);color:var(--vio)}
+.lvl-badge{display:inline-flex;align-items:center;gap:3px;font-size:.58rem;font-weight:700;padding:2px 7px;border-radius:10px;letter-spacing:.04em}
+.lb-5{background:#fef5de;color:#c97800;border:1px solid #f9d08a}
+.lb-4{background:#d4eeff;color:#1a6fa0;border:1px solid #7fd4f9}
+.lb-3{background:#ede9fe;color:#7c3aed;border:1px solid #c4b5fd}
+</style>
+</head>
+<body>
+<header class="hdr">
+ <button class="ham" onclick="toggleSidebar()" aria-label="Menu">☰</button>
+ <div class="logo" onclick="if(ST.activeCls){ST.activeDomain='home';saveST();renderMain();}">
+  <div class="logo-ico"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><circle cx="12" cy="12" r="4.5" fill="none" stroke="white" stroke-width="2"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4l1.4-1.4M17 7l1.4-1.4" stroke="white" stroke-width="2" stroke-linecap="round"/></svg></div>
+  <div class="logo-txt">
+   <span class="logo-name">Techno Cycle 4</span>
+   <span class="logo-sub">BO 2024 · 5ème · 4ème · 3ème</span>
+  </div>
+ </div>
+ <div class="hdr-chips" id="hdrChips"></div>
+ <div class="hdr-acts">
+  <button class="hbtn" onclick="saveJSON()">💾 <span class="t">Sauvegarder</span></button>
+  <label class="hbtn" style="cursor:pointer">📂 <span class="t">Importer</span><input type="file" id="impF" accept=".json" style="display:none" onchange="loadJSON(this)"></label>
+  <button class="hbtn" onclick="openReport()">📄 <span class="t">Rapport</span></button>
+  <button class="hbtn" onclick="openModal('helpModal')">❓ <span class="t">Aide</span></button>
+ </div>
+</header>
+<div class="sb-bg" id="sbBg" onclick="closeSidebar()"></div>
+<nav class="sidebar" id="sidebar">
+ <div class="sb-scroll" id="sbScroll"></div>
+ <div class="sb-ft">
+  <button class="sb-ftl" onclick="openModal('privModal')">🔒 Confidentialité</button>
+  <button class="sb-ftl" onclick="openModal('licModal')">📜 Licence &amp; Crédits</button>
+  <div class="sb-cred">
+   <a href="https://www.linkedin.com/in/tomrougeaud/" target="_blank">Tom Rougeaud</a>
+   <a href="https://tom-rougeaud.github.io/casier-tom-rougeaud" target="_blank">//Tom Rougeaud</a>
+   <span>© 2026</span>
+  </div>
+ </div>
+</nav>
+<main class="main" id="mainArea"></main>
+<div class="undo-bar" id="undoBar">
+ <span>Ctrl+Z · Historique</span>
+ <button class="ub-btn" onclick="doUndo()">↩ Annuler (<span id="undoCount">0</span>)</button>
+ <button class="ub-btn" onclick="doRedo()">↪ Rétablir (<span id="redoCount">0</span>)</button>
+ <button class="ub-btn" onclick="document.getElementById('undoBar').className='undo-bar'">✕</button>
+</div>
+
+<div class="overlay" id="editClsModal" onclick="bgClose(event,'editClsModal')">
+ <div class="modal">
+  <div class="mhd"><span class="mhd-t" id="editClsTitle">Nouvelle classe</span><button class="mx" onclick="closeModal('editClsModal')">&#10005;</button></div>
+  <div class="mbody">
+   <div class="fg"><label>Nom de la classe *</label><input id="cls_name" placeholder="ex : 5ème B · groupe 2"></div>
+   <div class="fg">
+    <label>Niveau de la classe</label>
+    <div class="lvl-pick">
+     <button type="button" class="lvl-sw" data-lv="cinquieme" onclick="selectLevel('cinquieme')"><span class="lvl-badge lb-5">5ème</span><br><span style="font-size:.63rem;font-weight:400;color:var(--dim)">Première découverte</span></button>
+     <button type="button" class="lvl-sw" data-lv="quatrieme" onclick="selectLevel('quatrieme')"><span class="lvl-badge lb-4">4ème</span><br><span style="font-size:.63rem;font-weight:400;color:var(--dim)">Approfondissement</span></button>
+     <button type="button" class="lvl-sw on" data-lv="troisieme" onclick="selectLevel('troisieme')"><span class="lvl-badge lb-3">3ème</span><br><span style="font-size:.63rem;font-weight:400;color:var(--dim)">Maîtrise &amp; projet</span></button>
+    </div>
+    <input type="hidden" id="cls_level" value="troisieme">
+   </div>
+   <div class="fg2">
+    <div class="fg"><label>Année scolaire</label><input id="cls_year" placeholder="2026-2027"></div>
+    <div class="fg"><label>Établissement</label><input id="cls_etab" placeholder="Collège Jules Ferry"></div>
+   </div>
+   <div class="fg"><label>Enseignant(e)</label><input id="cls_teacher" placeholder="M. / Mme …"></div>
+   <div class="fg"><label>Couleur de la classe</label><div class="cpick" id="colorPicker"></div></div>
+   <input type="hidden" id="cls_editId">
+  </div>
+  <div class="mft"><button class="mb mb-s" onclick="closeModal('editClsModal')">Annuler</button><button class="mb mb-p" onclick="saveClass()">Enregistrer</button></div>
+ </div>
+</div>
+
+<div class="overlay" id="prjModal" onclick="bgClose(event,'prjModal')">
+ <div class="modal">
+  <div class="mhd"><span class="mhd-t" id="prjModalTitle">Nouveau projet</span><button class="mx" onclick="closeModal('prjModal')">&#10005;</button></div>
+  <div class="mbody">
+   <div class="fg"><label>Nom du projet *</label><input id="prj_name" placeholder="ex : Robot suiveur de ligne"></div>
+   <div class="fg2">
+    <div class="fg"><label>Thème</label>
+     <select id="prj_theme"><option value="">— thème —</option><option>Robotique</option><option>Domotique</option><option>Objet communicant</option><option>Éco-conception</option><option>Jeu interactif</option><option>Alarme / Sécurité</option><option>Transport / Mobilité</option><option>Agriculture / Nature</option><option>Santé / Sport</option><option>Autre</option></select>
+    </div>
+    <div class="fg"><label>Statut</label>
+     <select id="prj_status"><option value="0">💡 Idée / Analyse</option><option value="1">🔨 En conception</option><option value="2">🧪 Prototype / Tests</option><option value="3">✅ Terminé</option></select>
+    </div>
+   </div>
+   <div class="fg"><label>Description</label><textarea id="prj_desc" placeholder="Objectif, contexte, contraintes…"></textarea></div>
+   <div class="fg"><label>Outils utilisés</label>
+    <div class="tool-pick">
+     <button type="button" class="tool-sw" data-t="scratch_python">Scratch / Python</button>
+     <button type="button" class="tool-sw" data-t="arduino">Arduino</button>
+     <button type="button" class="tool-sw" data-t="cao_3d">CAO 3D</button>
+     <button type="button" class="tool-sw" data-t="openoffice_libre">Bureautique</button>
+     <button type="button" class="tool-sw" data-t="simulation">Simulation</button>
+     <button type="button" class="tool-sw" data-t="bambu_studio">Bambu Studio</button>
+    </div>
+   </div>
+   <input type="hidden" id="prj_editId"><input type="hidden" id="prj_editIdx">
+  </div>
+  <div class="mft"><button class="mb mb-s" onclick="closeModal('prjModal')">Annuler</button><button class="mb mb-o" onclick="saveProject()">Enregistrer</button></div>
+ </div>
+</div>
+
+<div class="overlay" id="rptModal" onclick="bgClose(event,'rptModal')">
+ <div class="modal lg">
+  <div class="mhd"><span class="mhd-t">📄 Bilan de progression</span><button class="mx" onclick="closeModal('rptModal')">&#10005;</button></div>
+  <div class="mbody">
+   <div class="fg2">
+    <div class="fg"><label>Classe</label><select id="rpt_cls" onchange="rptClsChange()"><option value="">— choisir —</option></select></div>
+    <div class="fg"><label>Type de rapport</label>
+     <select id="rpt_type" onchange="rptTypeChange()">
+      <option value="thematic">Thématique (par thème / module)</option>
+      <option value="chrono">Chronologique (par date de maîtrise)</option>
+     </select>
+    </div>
+   </div>
+   <div id="rpt_info" style="display:none;font-size:.69rem;padding:6px 10px;background:var(--vio-bg);border:1px solid var(--bd2);border-radius:var(--r2);color:var(--vio-dk);margin-bottom:8px"></div>
+   <div id="rpt_filter_div" style="display:none;padding:8px 10px;background:var(--sf2);border:1px solid var(--bd);border-radius:var(--r2);margin-bottom:8px;font-size:.74rem">
+    <span style="font-weight:600;margin-right:10px">Regrouper par :</span>
+    <label style="margin-right:10px"><input type="radio" name="rpt_group" value="month" checked> Mois</label>
+    <label><input type="radio" name="rpt_group" value="period"> Période scolaire</label>
+   </div>
+   <div id="rptOutput"></div>
+  </div>
+  <div class="mft">
+   <button class="mb mb-s" onclick="closeModal('rptModal')">Fermer</button>
+   <button class="mb mb-s" onclick="generateReport()">👁 Aperçu</button>
+   <button class="mb mb-p" onclick="exportHTML()">⬇️ HTML</button>
+   <button class="mb mb-o" onclick="exportPDF()">🖨️ PDF / Imprimer</button>
+  </div>
+ </div>
+</div>
+
+<div class="overlay" id="helpModal" onclick="bgClose(event,'helpModal')">
+ <div class="modal lg">
+  <div class="mhd"><span class="mhd-t">❓ Guide d'utilisation</span><button class="mx" onclick="closeModal('helpModal')">&#10005;</button></div>
+  <div class="mbody">
+   <div class="help-sec">
+    <div class="help-sec-ttl">🚀 3 niveaux distincts</div>
+    <div class="help-item"><span class="help-item-ico"><span class="lvl-badge lb-5">5ème</span></span><span><b>Découverte</b> : observer, manipuler, lire des schémas fournis, identifier des composants, modifier un programme existant.</span></div>
+    <div class="help-item"><span class="help-item-ico"><span class="lvl-badge lb-4">4ème</span></span><span><b>Approfondissement</b> : analyser, comparer, compléter des schémas, choisir des procédés, paramétrer, proposer des protocoles.</span></div>
+    <div class="help-item"><span class="help-item-ico"><span class="lvl-badge lb-3">3ème</span></span><span><b>Maîtrise</b> : concevoir, argumenter, créer des algorithmes, planifier un projet complet, valider et documenter.</span></div>
+   </div>
+   <div class="help-sec">
+    <div class="help-sec-ttl">📐 Outils graphiques</div>
+    <div class="help-item"><span class="help-item-ico">📐</span><span>Bête à cornes, pieuvre 🐙, logigramme 📊, Gantt 📅, schéma bloc 🔷 — notions avec fond violet clair, cochables avec les 4 statuts habituels.</span></div>
+   </div>
+   <div class="help-sec">
+    <div class="help-sec-ttl">↩ Spiralaire · ⌨️ Raccourcis</div>
+    <div class="help-item"><span class="help-item-ico">↩</span><span>Bouton ↩ sur une notion = nouvelle date de réabord horodatée.</span></div>
+    <div class="help-item"><span class="help-item-ico">⌨️</span><span><b>Ctrl+Z</b> annuler · <b>Ctrl+Y</b> rétablir (30 niveaux).</span></div>
+   </div>
+   <div class="help-sec">
+    <div class="help-sec-ttl">ℹ️ Calendrier BO 2024</div>
+    <div class="prose"><p>5ème : dès 2024-2025 · 4ème : dès 2025-2026 · 3ème : dès 2026-2027. L'ancien programme reste valide en 3ème jusqu'en 2025-2026.</p></div>
+   </div>
+  </div>
+  <div class="mft"><button class="mb mb-s" onclick="closeModal('helpModal')">Fermer</button></div>
+ </div>
+</div>
+
+<div class="overlay" id="privModal" onclick="bgClose(event,'privModal')">
+ <div class="modal"><div class="mhd"><span class="mhd-t">🔒 Confidentialité</span><button class="mx" onclick="closeModal('privModal')">&#10005;</button></div>
+  <div class="mbody"><div class="prose"><h3>Stockage 100 % local</h3><p>Données stockées dans le <code>localStorage</code> (clé <code>pt3_v2</code>). Aucune donnée transmise.</p><h3>Sauvegarde</h3><p>Utilisez <b>💾 Sauvegarder (JSON)</b> régulièrement.</p></div></div>
+  <div class="mft"><button class="mb mb-s" onclick="closeModal('privModal')">Fermer</button></div>
+ </div>
+</div>
+
+<div class="overlay" id="licModal" onclick="bgClose(event,'licModal')">
+ <div class="modal"><div class="mhd"><span class="mhd-t">📜 Licence</span><button class="mx" onclick="closeModal('licModal')">&#10005;</button></div>
+  <div class="mbody"><div class="prose"><h3>Progression Techno Cycle 4</h3><p>BO n°9 du 29 février 2024. 3 niveaux : 5ème, 4ème, 3ème.</p><h3>Auteur</h3><p>© 2026 <a href="https://www.linkedin.com/in/tomrougeaud/">Tom Rougeaud</a></p></div></div>
+  <div class="mft"><button class="mb mb-s" onclick="closeModal('licModal')">Fermer</button></div>
+ </div>
+</div>
+
+<script>document.addEventListener('click',function(e){if(e.target.classList.contains('tool-sw'))e.target.classList.toggle('on');});</script>
+<script>const CUR={"cinquieme":[{"id":"t1","label":"Usages, interactions et évolutions des OST","icon":"🌐","desc":"Découvrir et analyser les usages, les évolutions et les interactions des OST avec leur environnement. Compétences propres au niveau 5ème d'après les repères de progressivité du BO 2024.","color":"#7c3aed","modules":[{"id":"t1m1","name":"Évolution des objets techniques","icon":"📈","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Collecter, trier et analyser des données sur un OST","Comparer des principes techniques pour une même fonction technique","Mettre en relation les OST avec leurs usages"]},{"t":"Connaissances communes au cycle (BO 2024)","n":["Invention, innovation, innovation de rupture, développement durable","La fonction technique et le principe technique","La famille et la lignée d'OST","Les contraintes sociétales (économiques, environnementales, culturelles)","Les grands types d'apprentissage des IA et leurs usages (géolocalisation, identification, calcul, traduction)","Les incidences sociétales : biais et effets de l'usage d'une IA","Système d'information : fichiers, dossiers, arborescence, formats","Unités d'information : bit, octet et multiples","Cybersécurité : données personnelles, traces numériques, authentification","Cyberviolence : usurpation d'identité, usage détourné","Interacteurs extérieurs : usagers, données, autres OST, environnement","Modes de représentation : croquis, schéma, graphique, algorithme, modélisation","Contraintes : normes, CDC, labels, ergonomie","Composantes d'une notice et documentation technique","Indice énergétique et indice de réparabilité","Impacts environnementaux : air, eau, sol, santé","Piliers du développement durable et étapes du cycle de vie","Critères de choix : qualité, efficacité énergétique, durabilité, recyclabilité","Critères de performance : vitesse, autonomie énergétique…"]}]},{"id":"t1m2","name":"Usages et impacts du numérique","icon":"🔐","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Décrire le rôle des systèmes d'information dans le partage d'informations","Recenser des données, les identifier, les classer, les représenter, les stocker dans des fichiers, les retrouver dans une arborescence","Identifier des règles permettant de sécuriser un environnement numérique (bases de la cybersécurité) et des règles de respect de la propriété intellectuelle"]},{"t":"Connaissances","n":["Fichiers informatiques (texte, image, tableur, CSV) et dossiers, arborescence","Extension et format de fichiers, droits d'écriture et de lecture","Unité de quantité d'information : bit, octet et multiples","Ordre de grandeur de la taille des fichiers (image, son, vidéo)","Cybersécurité : protection des données personnelles, traces numériques, propriété intellectuelle"]}]},{"id":"t1m3","name":"L'OST dans son environnement","icon":"🎯","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Faire la liste des interacteurs extérieurs d'un OST","Décrire l'expérience de l'utilisateur (ressenti et facilité d'usage) d'un OST en partant du langage naturel (texte, croquis) pour aboutir aux schémas, graphiques, algorithmes","📐 Bête à cornes — premiers usages pour exprimer le besoin"]},{"t":"Connaissances","n":["Les interacteurs extérieurs : usagers, données, autres OST, environnement","Les modes de représentation : croquis, schéma, graphique, algorithme, modélisation","L'ergonomie liée à l'usage"]}]},{"id":"t1m4","name":"Caractérisation et choix d'un OST","icon":"♻️","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Repérer pour un OST les matériaux, les sources et les formes d'énergie, le traitement de l'information","Choisir un OST parmi plusieurs propositions en vue de répondre à un besoin","Établir une liste d'OST possibles en vue de répondre à un besoin","Mesurer et comparer une performance d'un OST à partir d'un protocole fourni"]},{"t":"Connaissances","n":["Composantes d'une notice et documentation technique","Piliers du développement durable et étapes du cycle de vie d'un OST","Critères de performance d'un OST : vitesse, autonomie énergétique…"]}]}]},{"id":"t2","label":"Structure, fonctionnement et comportement","icon":"⚙️","desc":"Comprendre la structure interne des OST, analyser les chaînes d'information et d'énergie, programmer et réparer. Compétences propres au niveau 5ème.","color":"#0e7490","modules":[{"id":"t2m1","name":"Chaîne d'énergie","icon":"⚡","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Associer des solutions techniques à une ou des fonctions techniques","Identifier des constituants de la chaîne d'énergie d'un OST (l'organisation étant fournie)","Indiquer la nature des énergies en entrée et en sortie des constituants de la chaîne d'énergie","🔷 Schéma bloc — lire un schéma de chaîne d'énergie fourni"]},{"t":"Connaissances communes (énergie)","n":["Formes d'énergie : électrique, cinétique, potentielle, thermique, lumineuse","Conversions d'énergie : moteur électrique, lampe, radiateur, génératrice, vérin","Fonctions des constituants : batterie, relais/interrupteur","Mécanismes de transmission et de transformation de mouvements (engrenages, courroies, chaînes)"]}]},{"id":"t2m2","name":"Matériaux et procédés","icon":"🧱","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Identifier les principaux matériaux constitutifs d'un OST"]},{"t":"Connaissances communes (matériaux)","n":["Caractéristiques et propriétés des principaux matériaux","Caractéristiques des procédés de mise en forme disponibles dans le laboratoire","Étapes du cycle de vie : extraction, traitement, fabrication, assemblage, utilisation, fin de vie, transport"]}]},{"id":"t2m3","name":"Chaîne d'information","icon":"📡","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Identifier des constituants de la chaîne d'information d'un OST (l'organisation étant fournie)","🔷 Schéma bloc — lire un schéma de chaîne d'information fourni"]},{"t":"Connaissances communes (chaîne d'information)","n":["Capteurs : température, présence, distance…","Microcontrôleur : rôle et constituants","Interface homme-machine (IHM) : boutons, afficheurs"]}]},{"id":"t2m4","name":"Structuration et traitement des données","icon":"📊","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Déterminer des descripteurs permettant de décrire des objets sous forme de données en précisant leurs types et leurs formats"]},{"t":"Connaissances communes (données)","n":["Vocabulaire : objet, descripteur, collection, type (chaîne, nombre, booléen)","Représentation : bit (0/1), booléens, mots (ASCII), entiers naturels","Traitement des données dans un tableur : calculs, filtre, tri"]}]},{"id":"t2m5","name":"Réseau informatique","icon":"🌐","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Identifier les composants qui constituent un réseau local (terminaux, commutateurs, liaisons filaires et WiFi) et sa topologie","Justifier la nécessité d'identifier les terminaux pour communiquer sur un réseau local (activité débranchée et vérification par simulation)"]},{"t":"Connaissances communes (réseau)","n":["Réseau local et réseau mondial (Internet)","Terminaux, carte réseau, liaisons filaires et WiFi, commutateur, routeur, serveur","Adresse IP, tables de routage","Débit et ordres de grandeur"]}]},{"id":"t2m6","name":"Dépannage et réparation","icon":"🔧","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Repérer visuellement une pièce défectueuse","Réaliser une réparation en suivant un protocole fourni","Découvrir les procédés de réalisation présents dans un atelier de fabrication collaboratif"]},{"t":"Compétences de programmation (5ème)","n":["Modifier les paramètres d'entrée d'un programme pour identifier les conséquences sur les fonctionnalités","📊 Logigramme — lire et comprendre un logigramme fourni"]}]}]},{"id":"t3","label":"Création, conception et réalisation","icon":"🛠️","desc":"Concevoir et réaliser des solutions techniques en réponse à un besoin, dans le cadre d'une démarche de projet. Compétences propres au niveau 5ème.","color":"#c2410c","modules":[{"id":"t3m1","name":"Démarche de mini-projet","icon":"📋","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Identifier les étapes d'une démarche de mini-projet","Proposer des solutions créatives en réponse à un besoin identifié","Représenter une solution à l'aide d'un croquis annoté","Travailler en équipe et respecter les consignes de sécurité"]},{"t":"Connaissances","n":["Les étapes d'un projet : analyse → idéation → réalisation → validation","Outils d'idéation : croquis, schéma, brainstorming","Règles de sécurité dans le laboratoire de technologie"]}]},{"id":"t3m2","name":"Modélisation 3D — initiation","icon":"📐","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Modifier un modèle 3D fourni à l'aide d'un logiciel de CAO","Lire et interpréter un plan simple","Identifier les paramètres de base d'une impression 3D"]},{"t":"Connaissances communes (conception / réalisation)","n":["Phases d'une démarche de conception : analyse du besoin, idéation, conception, réalisation, validation","Cahier des charges (CDC) : expression des exigences","Modélisation volumique (CAO) : esquisse, extrusion, révolution","Procédés de fabrication disponibles dans le laboratoire (impression 3D, découpe laser, usinage…)","Matériaux d'impression 3D : PLA, PETG, ABS, TPU","Logiciels de tranchage (slicing) : Bambu Studio, Cura…"]}]},{"id":"t3m3","name":"Fabrication et prototypage — initiation","icon":"🖨️","note":"Repères 5ème — BO 2024","sections":[{"t":"Compétences attendues en 5ème","n":["Participer à la réalisation d'une pièce avec les outils du laboratoire","Identifier les procédés de fabrication disponibles (impression 3D, découpe laser…)","Contrôler la conformité d'une pièce réalisée par rapport à un gabarit ou plan fourni"]},{"t":"Connaissances communes (conception / réalisation)","n":["Phases d'une démarche de conception : analyse du besoin, idéation, conception, réalisation, validation","Cahier des charges (CDC) : expression des exigences","Modélisation volumique (CAO) : esquisse, extrusion, révolution","Procédés de fabrication disponibles dans le laboratoire (impression 3D, découpe laser, usinage…)","Matériaux d'impression 3D : PLA, PETG, ABS, TPU","Logiciels de tranchage (slicing) : Bambu Studio, Cura…"]}]}]}],"quatrieme":[{"id":"t1","label":"Usages, interactions et évolutions des OST","icon":"🌐","desc":"Découvrir et analyser les usages, les évolutions et les interactions des OST avec leur environnement. Compétences propres au niveau 4ème d'après les repères de progressivité du BO 2024.","color":"#7c3aed","modules":[{"id":"t1m1","name":"Évolution des objets techniques","icon":"📈","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Identifier les avantages et les inconvénients associés aux évolutions technologiques et informatiques","Justifier l'évolution d'un OST pour répondre à l'évolution des besoins"]},{"t":"Connaissances communes au cycle (BO 2024)","n":["Invention, innovation, innovation de rupture, développement durable","La fonction technique et le principe technique","La famille et la lignée d'OST","Les contraintes sociétales (économiques, environnementales, culturelles)","Les grands types d'apprentissage des IA et leurs usages (géolocalisation, identification, calcul, traduction)","Les incidences sociétales : biais et effets de l'usage d'une IA","Système d'information : fichiers, dossiers, arborescence, formats","Unités d'information : bit, octet et multiples","Cybersécurité : données personnelles, traces numériques, authentification","Cyberviolence : usurpation d'identité, usage détourné","Interacteurs extérieurs : usagers, données, autres OST, environnement","Modes de représentation : croquis, schéma, graphique, algorithme, modélisation","Contraintes : normes, CDC, labels, ergonomie","Composantes d'une notice et documentation technique","Indice énergétique et indice de réparabilité","Impacts environnementaux : air, eau, sol, santé","Piliers du développement durable et étapes du cycle de vie","Critères de choix : qualité, efficacité énergétique, durabilité, recyclabilité","Critères de performance : vitesse, autonomie énergétique…"]}]},{"id":"t1m2","name":"Usages et impacts du numérique","icon":"🔐","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Appréhender la responsabilité de chacun dans les dérives numériques (cyberviolence, atteinte à la vie privée, aux données personnelles, usurpation d'identité)"]},{"t":"Connaissances","n":["Cyberviolence : usurpation d'identité, usage détourné","Traces numériques, témoins de connexion, géolocalisation","Incidences liées au stockage, flux des données et réseaux d'information"]}]},{"id":"t1m3","name":"L'OST dans son environnement","icon":"🎯","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Repérer et expliquer les choix de conception dans les domaines de l'ergonomie et de la sécurité ou en lien avec des objectifs de développement durable","Repérer et expliquer les contraintes et exigences prises en compte (sécurité, environnement, formes, fonctions, ergonomie, qualité, fiabilité) pour répondre aux attentes des utilisateurs","🐙 Diagramme pieuvre — recenser les interactions avec l'environnement (fonctions de service et contraintes)"]},{"t":"Connaissances","n":["Fonctions de service (FS) et fonctions contraintes (FC)","Prise en compte des exigences issues des normes ou d'un CDC, labels et certifications","Ergonomie liée à l'usage"]}]},{"id":"t1m4","name":"Caractérisation et choix d'un OST","icon":"♻️","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Identifier les étapes du cycle de vie d'un OST influencées par les choix de matériaux et d'énergie","Identifier les caractéristiques à prendre en compte dans le choix d'un OST en vue de répondre à un besoin","Comparer qualitativement et/ou quantitativement (incidences environnementales, bilan carbone, efficacité énergétique) plusieurs OST répondant au même besoin et arrêter un choix","Évaluer les OST selon des exigences ou des critères identifiés (caractéristiques, performances, coût, indice de réparabilité)","Choisir les appareils de mesure à utiliser pour mesurer une performance d'un OST à partir d'un protocole donné"]},{"t":"Connaissances","n":["Indice énergétique et indice de réparabilité","Impacts environnementaux (indicateurs : air, eau, sol et santé)","Piliers du développement durable et cycle de vie d'un OST","Critères de choix : qualité, efficacité énergétique, durabilité, recyclabilité"]}]}]},{"id":"t2","label":"Structure, fonctionnement et comportement","icon":"⚙️","desc":"Comprendre la structure interne des OST, analyser les chaînes d'information et d'énergie, programmer et réparer. Compétences propres au niveau 4ème.","color":"#0e7490","modules":[{"id":"t2m1","name":"Chaîne d'énergie","icon":"⚡","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Identifier les constituants d'une chaîne d'énergie et les associer à leurs fonctions","Repérer les transformations d'énergie et les flux d'énergie au sein de l'OST"]},{"t":"Connaissances communes (énergie)","n":["Formes d'énergie : électrique, cinétique, potentielle, thermique, lumineuse","Conversions d'énergie : moteur électrique, lampe, radiateur, génératrice, vérin","Fonctions des constituants : batterie, relais/interrupteur","Mécanismes de transmission et de transformation de mouvements (engrenages, courroies, chaînes)"]}]},{"id":"t2m2","name":"Matériaux et procédés","icon":"🧱","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Mettre en relation la forme d'une pièce avec le procédé de réalisation"]},{"t":"Connaissances communes (matériaux)","n":["Caractéristiques et propriétés des principaux matériaux","Caractéristiques des procédés de mise en forme disponibles dans le laboratoire","Étapes du cycle de vie : extraction, traitement, fabrication, assemblage, utilisation, fin de vie, transport"]}]},{"id":"t2m3","name":"Chaîne d'information","icon":"📡","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Identifier les constituants de la chaîne d'information d'un OST réel et les associer à leur fonction","Associer des grandeurs analogiques issues d'un OST à des données exploitables","🔷 Schéma bloc — construire un schéma de chaîne d'information"]},{"t":"Connaissances communes (chaîne d'information)","n":["Capteurs : température, présence, distance…","Microcontrôleur : rôle et constituants","Interface homme-machine (IHM) : boutons, afficheurs"]}]},{"id":"t2m4","name":"Structuration et traitement des données","icon":"📊","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Décrire et analyser la transformation des données téléversées ou issues d'un OST","Représenter sous forme de données les informations de diverses natures utilisées par un OST"]},{"t":"Connaissances communes (données)","n":["Vocabulaire : objet, descripteur, collection, type (chaîne, nombre, booléen)","Représentation : bit (0/1), booléens, mots (ASCII), entiers naturels","Traitement des données dans un tableur : calculs, filtre, tri"]}]},{"id":"t2m5","name":"Réseau informatique","icon":"🌐","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Paramétrer une adresse IP fixe pour ajouter un objet connecté à un réseau local","Résoudre des problèmes pour assurer la communication entre terminaux dans un réseau informatique (simulation ou réseau local déconnecté)","Compléter une simulation fournie pour valider le comportement d'un réseau informatique"]},{"t":"Connaissances communes (réseau)","n":["Réseau local et réseau mondial (Internet)","Terminaux, carte réseau, liaisons filaires et WiFi, commutateur, routeur, serveur","Adresse IP, tables de routage","Débit et ordres de grandeur"]}]},{"id":"t2m6","name":"Dépannage et réparation","icon":"🔧","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Proposer un protocole permettant de vérifier l'origine d'un dysfonctionnement","Remplacer une pièce défectueuse sans protocole fourni (la pièce de remplacement étant fournie)","Choisir les procédés de réalisation et les mettre en œuvre"]},{"t":"Compétences de programmation (4ème)","n":["Analyser les données d'un programme et compléter le programme pour modifier une fonctionnalité","Tester et valider les modifications apportées à un programme","📊 Logigramme — compléter et modifier un logigramme","Identifier l'architecture d'un réseau local pour un système embarqué"]}]}]},{"id":"t3","label":"Création, conception et réalisation","icon":"🛠️","desc":"Concevoir et réaliser des solutions techniques en réponse à un besoin, dans le cadre d'une démarche de projet. Compétences propres au niveau 4ème.","color":"#c2410c","modules":[{"id":"t3m1","name":"Démarche de projet","icon":"📋","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Analyser le besoin et produire un cahier des charges partiel","Rechercher et comparer plusieurs solutions techniques","📅 Diagramme de Gantt — lire et utiliser un diagramme de Gantt fourni pour planifier les tâches","Travailler en équipe avec une répartition des rôles","Rédiger un compte-rendu partiel d'une activité"]},{"t":"Connaissances","n":["Cahier des charges fonctionnel partiel","Diagramme de Gantt : colonnes tâches, durées, dépendances","Répartition des rôles dans une équipe projet"]}]},{"id":"t3m2","name":"Conception et modélisation 3D","icon":"📐","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Concevoir un modèle 3D d'une pièce simple à l'aide d'un logiciel de CAO","Assembler des pièces avec des contraintes d'assemblage simples","Lire et interpréter une mise en plan cotée","Exporter un fichier au format .STL pour l'impression 3D"]},{"t":"Connaissances communes (conception / réalisation)","n":["Phases d'une démarche de conception : analyse du besoin, idéation, conception, réalisation, validation","Cahier des charges (CDC) : expression des exigences","Modélisation volumique (CAO) : esquisse, extrusion, révolution","Procédés de fabrication disponibles dans le laboratoire (impression 3D, découpe laser, usinage…)","Matériaux d'impression 3D : PLA, PETG, ABS, TPU","Logiciels de tranchage (slicing) : Bambu Studio, Cura…"]}]},{"id":"t3m3","name":"Fabrication et programmation","icon":"🔧","note":"Repères 4ème — BO 2024","sections":[{"t":"Compétences attendues en 4ème","n":["Paramétrer et réaliser une impression 3D avec Bambu Studio","Choisir le matériau d'impression adapté aux contraintes","Intégrer et tester des capteurs et actionneurs dans une réalisation","Compléter et tester un programme pour modifier une fonctionnalité d'un OST"]},{"t":"Connaissances communes (conception / réalisation)","n":["Phases d'une démarche de conception : analyse du besoin, idéation, conception, réalisation, validation","Cahier des charges (CDC) : expression des exigences","Modélisation volumique (CAO) : esquisse, extrusion, révolution","Procédés de fabrication disponibles dans le laboratoire (impression 3D, découpe laser, usinage…)","Matériaux d'impression 3D : PLA, PETG, ABS, TPU","Logiciels de tranchage (slicing) : Bambu Studio, Cura…"]}]}]}],"troisieme":[{"id":"t1","label":"Usages, interactions et évolutions des OST","icon":"🌐","desc":"Découvrir et analyser les usages, les évolutions et les interactions des OST avec leur environnement. Compétences propres au niveau 3ème d'après les repères de progressivité du BO 2024.","color":"#7c3aed","modules":[{"id":"t1m1","name":"Évolution des objets techniques","icon":"📈","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["Identifier les innovations de rupture attachées à l'évolution d'un OST","Mettre en relation une découverte scientifique avec ses développements technologiques et leurs effets sur la société","Exprimer dans un argumentaire court l'incidence d'un OST sur la société","Exprimer dans un argumentaire court l'incidence des contraintes sociétales sur les OST","Identifier les grands types d'apprentissage des IA et leurs usages","Analyser les biais et les effets de l'usage d'une intelligence artificielle"]},{"t":"Connaissances communes au cycle (BO 2024)","n":["Invention, innovation, innovation de rupture, développement durable","La fonction technique et le principe technique","La famille et la lignée d'OST","Les contraintes sociétales (économiques, environnementales, culturelles)","Les grands types d'apprentissage des IA et leurs usages (géolocalisation, identification, calcul, traduction)","Les incidences sociétales : biais et effets de l'usage d'une IA","Système d'information : fichiers, dossiers, arborescence, formats","Unités d'information : bit, octet et multiples","Cybersécurité : données personnelles, traces numériques, authentification","Cyberviolence : usurpation d'identité, usage détourné","Interacteurs extérieurs : usagers, données, autres OST, environnement","Modes de représentation : croquis, schéma, graphique, algorithme, modélisation","Contraintes : normes, CDC, labels, ergonomie","Composantes d'une notice et documentation technique","Indice énergétique et indice de réparabilité","Impacts environnementaux : air, eau, sol, santé","Piliers du développement durable et étapes du cycle de vie","Critères de choix : qualité, efficacité énergétique, durabilité, recyclabilité","Critères de performance : vitesse, autonomie énergétique…"]}]},{"id":"t1m2","name":"Usages et impacts du numérique","icon":"🔐","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["Identifier et appliquer les règles pour un usage raisonné des objets communicants et des environnements numériques (propriété intellectuelle, identité numérique, témoins de connexion, géolocalisation)","Exprimer dans un argumentaire court le rôle du développement stratégique du numérique au sein de la société et des environnements professionnels"]},{"t":"Connaissances","n":["Identité numérique et authentification","Traces numériques : témoins de connexion, géolocalisation","Propriété intellectuelle et droit d'auteur","Cyberviolence : usurpation d'identité, usage détourné","Rôle stratégique du numérique dans les métiers"]}]},{"id":"t1m3","name":"L'OST dans son environnement","icon":"🎯","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["Décrire l'expérience de l'utilisateur d'un OST à l'aide de modes de représentation choisis","📐 Bête à cornes — maîtriser l'expression du besoin","🐙 Diagramme pieuvre — maîtriser l'analyse des interactions avec l'environnement","Rédiger un cahier des charges fonctionnel partiel (CDCF)"]},{"t":"Connaissances","n":["Fonctions de service (FS) et fonctions contraintes (FC)","Cahier des charges fonctionnel : structure et usage","Modes de représentation choisis adaptés à la situation"]}]},{"id":"t1m4","name":"Caractérisation et choix d'un OST","icon":"♻️","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["Choisir un OST et argumenter ce choix en prenant en compte son cycle de vie et les 3 piliers du développement durable","Définir et mettre en œuvre un protocole pour mesurer une caractéristique ou une performance d'un OST"]},{"t":"Connaissances","n":["Les 3 piliers du DD : économique, social, environnemental","Cycle de vie complet : conception → fabrication → utilisation → fin de vie","Indice de réparabilité, bilan carbone, efficacité énergétique","Protocole de mesure : définition, mise en œuvre, résultats"]}]}]},{"id":"t2","label":"Structure, fonctionnement et comportement","icon":"⚙️","desc":"Comprendre la structure interne des OST, analyser les chaînes d'information et d'énergie, programmer et réparer. Compétences propres au niveau 3ème.","color":"#0e7490","modules":[{"id":"t2m1","name":"Chaîne d'énergie","icon":"⚡","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["🔷 Schéma bloc — élaborer la chaîne d'énergie d'un OST (alimenter / distribuer / convertir / transmettre)","Caractériser les flux d'énergie et les transformations au sein d'un OST","Justifier le choix d'un matériau et de son procédé de mise en forme au regard des contraintes techniques et environnementales"]},{"t":"Connaissances communes (énergie)","n":["Formes d'énergie : électrique, cinétique, potentielle, thermique, lumineuse","Conversions d'énergie : moteur électrique, lampe, radiateur, génératrice, vérin","Fonctions des constituants : batterie, relais/interrupteur","Mécanismes de transmission et de transformation de mouvements (engrenages, courroies, chaînes)"]}]},{"id":"t2m2","name":"Chaîne d'information","icon":"📡","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["🔷 Schéma bloc — élaborer la chaîne d'information d'un OST (acquérir / traiter / communiquer)","Décrire un OST en caractérisant sa chaîne d'information","Identifier la façon dont des données de différentes natures sont numérisées, stockées, mises en forme et transmises"]},{"t":"Connaissances communes (chaîne d'information)","n":["Capteurs : température, présence, distance…","Microcontrôleur : rôle et constituants","Interface homme-machine (IHM) : boutons, afficheurs"]}]},{"id":"t2m3","name":"Structuration et traitement des données","icon":"🗃️","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["Décrire et analyser la structuration d'une table de données permettant l'exploitation d'un OST","Identifier, selon les cas, la mise en forme, la transmission ou le stockage des informations dans des fichiers (texte, image, nombre)"]},{"t":"Connaissances communes (données)","n":["Vocabulaire : objet, descripteur, collection, type (chaîne, nombre, booléen)","Représentation : bit (0/1), booléens, mots (ASCII), entiers naturels","Traitement des données dans un tableur : calculs, filtre, tri"]}]},{"id":"t2m4","name":"Réseau informatique et Internet","icon":"🌐","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["Identifier et représenter la circulation d'une information dans le réseau Internet","Justifier la nécessité d'un protocole de routage pour faire communiquer plusieurs réseaux (activité débranchée, table de routage donnée)"]},{"t":"Connaissances communes (réseau)","n":["Réseau local et réseau mondial (Internet)","Terminaux, carte réseau, liaisons filaires et WiFi, commutateur, routeur, serveur","Adresse IP, tables de routage","Débit et ordres de grandeur"]}]},{"id":"t2m5","name":"Algorithmique et programmation","icon":"💻","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["Déterminer les données et concevoir l'algorithme associé à une nouvelle fonctionnalité d'un OST","Programmer et tester la nouvelle fonctionnalité","📊 Logigramme — concevoir un logigramme pour une fonctionnalité d'un OST","Décrire comment des données de différentes natures sont numérisées et transmises"]},{"t":"Concepts algorithmiques","n":["Séquence, condition (si/sinon), boucle bornée (pour), boucle non bornée (tant que)","Variable et affectation, types de données (entier, réel, chaîne, booléen)","Fonction et procédure","Programmer en Scratch, Python ou Arduino selon le contexte"]},{"t":"Dépannage 3ème","n":["Formuler des hypothèses expliquant le dysfonctionnement d'un OST","Proposer un protocole de dépannage puis de réparation","Fabriquer une pièce sur mesure ou utiliser des composants de bibliothèques pour remédier à un dysfonctionnement"]}]}]},{"id":"t3","label":"Création, conception et réalisation","icon":"🛠️","desc":"Concevoir et réaliser des solutions techniques en réponse à un besoin, dans le cadre d'une démarche de projet. Compétences propres au niveau 3ème.","color":"#c2410c","modules":[{"id":"t3m1","name":"Démarche de projet technologique","icon":"📋","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["Analyser le besoin, définir les exigences et rédiger un cahier des charges complet","Proposer et argumenter plusieurs solutions techniques en réponse au CDC","📅 Diagramme de Gantt — planifier et suivre l'avancement d'un projet complet","Coordonner le travail d'une équipe et présenter oralement la solution à l'oral","Rédiger un dossier technique complet (compte-rendu, documentation)"]},{"t":"Connaissances","n":["Cahier des charges fonctionnel complet (FS, FC, critères, niveaux, flexibilité)","Diagramme de Gantt : tâches, durées, dépendances, chemin critique","Communication orale et écrite d'une solution technique"]}]},{"id":"t3m2","name":"Conception et modélisation 3D","icon":"📐","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["Concevoir et modéliser un assemblage de plusieurs pièces (CAO)","Vérifier la cohérence et l'absence d'interférence entre pièces","Générer la mise en plan cotée d'une pièce","Choisir les matériaux et procédés en justifiant les contraintes techniques et environnementales"]},{"t":"Connaissances communes (conception / réalisation)","n":["Phases d'une démarche de conception : analyse du besoin, idéation, conception, réalisation, validation","Cahier des charges (CDC) : expression des exigences","Modélisation volumique (CAO) : esquisse, extrusion, révolution","Procédés de fabrication disponibles dans le laboratoire (impression 3D, découpe laser, usinage…)","Matériaux d'impression 3D : PLA, PETG, ABS, TPU","Logiciels de tranchage (slicing) : Bambu Studio, Cura…"]}]},{"id":"t3m3","name":"Fabrication, prototypage et impression 3D","icon":"🖨️","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["Paramétrer Bambu Studio et lancer une impression 3D autonomement","Choisir le matériau (PLA, PETG, TPU…) et les paramètres adaptés","Contrôler la conformité de la pièce produite par rapport au CDC","Identifier et corriger les défauts d'impression (stringing, layer shifting, sous-extrusion…)","Mettre en œuvre d'autres procédés de fabrication disponibles (découpe laser, assemblage)"]},{"t":"Connaissances communes (conception / réalisation)","n":["Phases d'une démarche de conception : analyse du besoin, idéation, conception, réalisation, validation","Cahier des charges (CDC) : expression des exigences","Modélisation volumique (CAO) : esquisse, extrusion, révolution","Procédés de fabrication disponibles dans le laboratoire (impression 3D, découpe laser, usinage…)","Matériaux d'impression 3D : PLA, PETG, ABS, TPU","Logiciels de tranchage (slicing) : Bambu Studio, Cura…"]}]},{"id":"t3m4","name":"Intégration et validation de la solution","icon":"✔️","note":"Repères 3ème — BO 2024","sections":[{"t":"Compétences attendues en 3ème","n":["Intégrer capteurs, actionneurs et microcontrôleur dans la solution complète","Programmer la solution fonctionnelle (Arduino, Python, Scratch)","Définir et mettre en œuvre un protocole de test complet (cas de test, résultats attendus)","Comparer les résultats obtenus aux spécifications du CDC et identifier les écarts","Documenter le code et réaliser une démonstration fonctionnelle"]},{"t":"Connaissances","n":["Protocole de test : cas de test, résultat attendu vs obtenu","Documentation : commentaires de code, README, schémas","Démonstration et argumentation de la solution réalisée"]}]}]}]};</script>
+<script>const SK='pt3_v2';
+const COLORS=['#fce4e4','#fce8c4','#fef9c3','#dcf5e4','#d4eeff','#ede4ff',
+  '#f9b8b8','#f9d08a','#f9e96a','#98e8b8','#7fd4f9','#c8a8f8',
+  '#e85c5c','#e88c30','#d4b010','#28a44c','#2074c8','#7848cc',
+  '#c73535','#c97800','#1a8c3d','#7c3aed','#0e7490','#c2410c',
+  '#7c0000','#7c4800','#005020','#00388a','#380068','#003450','#555','#222'];
+const SICO=['○','🌱','🔵','✅'];
+const SLBL=['','En cours','En révision','Maîtrisé'];
+const SCLS=['','s1','s2','s3'];
+const NBCLS=['nb0','nb1','nb2','nb3'];
+const MONTHS=['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
+const TOOLS={scratch_python:'Scratch/Python',arduino:'Arduino',cao_3d:'CAO 3D',openoffice_libre:'Bureautique',simulation:'Simulation',bambu_studio:'Bambu Studio'};
+const PSICO=['💡','🔨','🧪','✅'];
+const PSLBL=['Idée / Analyse','En conception','Prototype / Tests','Terminé'];
+const PSCLS=['ps0','ps1','ps2','ps3'];
+const PRJTHEMES=['Robotique','Domotique','Objet communicant','Éco-conception','Jeu interactif','Alarme / Sécurité','Transport / Mobilité','Agriculture / Nature','Santé / Sport','Autre'];
+const LEVELS={cinquieme:{key:'cinquieme',label:'5ème',badge:'5ème',cls:'lb-5'},quatrieme:{key:'quatrieme',label:'4ème',badge:'4ème',cls:'lb-4'},troisieme:{key:'troisieme',label:'3ème',badge:'3ème',cls:'lb-3'}};
+const DIAG_PFXS=['📐','🐙','📊','📅','⏱️','🔷','🌲'];
+function isDiagram(txt){return DIAG_PFXS.some(function(p){return txt&&txt.startsWith(p);});}
+
+const SCHOOL_CAL={
+  '2024':{r:'2024-09-02',t:['2024-10-19','2024-11-03'],n:['2024-12-21','2025-01-05'],h:['2025-02-08','2025-03-09'],p:['2025-04-05','2025-05-04'],e:'2025-06-28'},
+  '2025':{r:'2025-09-01',t:['2025-10-18','2025-11-02'],n:['2025-12-20','2026-01-04'],h:['2026-02-07','2026-03-08'],p:['2026-04-04','2026-05-03'],e:'2026-06-27'},
+  '2026':{r:'2026-09-01',t:['2026-10-17','2026-11-02'],n:['2026-12-19','2027-01-04'],h:['2027-02-06','2027-03-08'],p:['2027-04-03','2027-05-03'],e:'2027-07-03'},
+  '2027':{r:'2027-09-01',t:['2027-10-23','2027-11-08'],n:['2027-12-18','2028-01-03'],h:['2028-02-05','2028-03-06'],p:['2028-04-08','2028-05-08'],e:'2028-07-08'},
+  '2028':{r:'2028-09-04',t:['2028-10-21','2028-11-06'],n:['2028-12-23','2029-01-08'],h:['2029-02-10','2029-03-12'],p:['2029-04-07','2029-05-07'],e:'2029-07-07'},
+  '2029':{r:'2029-09-03',t:['2029-10-20','2029-11-05'],n:['2029-12-22','2030-01-07'],h:['2030-02-09','2030-03-11'],p:['2030-04-13','2030-05-13'],e:'2030-07-06'},
+  '2030':{r:'2030-09-03',t:['2030-10-19','2030-11-04'],n:['2030-12-21','2031-01-06'],h:['2031-02-08','2031-03-10'],p:['2031-04-12','2031-05-12'],e:'2031-07-05'},
+  '2031':{r:'2031-09-01',t:['2031-10-18','2031-11-03'],n:['2031-12-20','2032-01-05'],h:['2032-02-07','2032-03-08'],p:['2032-04-03','2032-05-03'],e:'2032-07-03'},
+  '2032':{r:'2032-09-02',t:['2032-10-23','2032-11-08'],n:['2032-12-18','2033-01-03'],h:['2033-02-05','2033-03-06'],p:['2033-04-09','2033-05-09'],e:'2033-07-09'},
+  '2033':{r:'2033-09-05',t:['2033-10-22','2033-11-07'],n:['2033-12-24','2034-01-09'],h:['2034-02-11','2034-03-13'],p:['2034-04-08','2034-05-08'],e:'2034-07-08'},
+  '2034':{r:'2034-09-04',t:['2034-10-21','2034-11-06'],n:['2034-12-23','2035-01-08'],h:['2035-02-10','2035-03-12'],p:['2035-04-07','2035-05-07'],e:'2035-07-07'},
+  '2035':{r:'2035-09-03',t:['2035-10-20','2035-11-05'],n:['2035-12-22','2036-01-07'],h:['2036-02-09','2036-03-11'],p:['2036-04-12','2036-05-12'],e:'2036-07-05'}
+};
+function parseSchoolYear(y){if(!y)return null;var m=String(y).match(/(\d{4})/);return m?m[1]:null;}
+function getPeriodForDate(dateStr,syear){var cal=SCHOOL_CAL[syear];if(!dateStr)return{name:'Sans date',key:'00_nodate',idx:0};if(!cal){var mo=MONTHS[parseInt(dateStr.slice(5,7))-1];return{name:mo+' '+dateStr.slice(0,4),key:dateStr.slice(0,7),idx:parseFloat(dateStr.slice(0,4)+'.'+dateStr.slice(5,7))};}if(dateStr<cal.r)return{name:'Avant la rentrée',key:syear+'_00',idx:0};if(dateStr>=cal.r&&dateStr<cal.t[0])return{name:'Période 1 — Rentrée → Toussaint',key:syear+'_P1',idx:1};if(dateStr>=cal.t[0]&&dateStr<=cal.t[1])return{name:'Vacances de Toussaint',key:syear+'_VT',idx:1.5};if(dateStr>cal.t[1]&&dateStr<cal.n[0])return{name:'Période 2 — Toussaint → Noël',key:syear+'_P2',idx:2};if(dateStr>=cal.n[0]&&dateStr<=cal.n[1])return{name:'Vacances de Noël',key:syear+'_VN',idx:2.5};if(dateStr>cal.n[1]&&dateStr<cal.h[0])return{name:'Période 3 — Noël → Hiver',key:syear+'_P3',idx:3};if(dateStr>=cal.h[0]&&dateStr<=cal.h[1])return{name:'Vacances d\'Hiver',key:syear+'_VH',idx:3.5};if(dateStr>cal.h[1]&&dateStr<cal.p[0])return{name:'Période 4 — Hiver → Printemps',key:syear+'_P4',idx:4};if(dateStr>=cal.p[0]&&dateStr<=cal.p[1])return{name:'Vacances de Printemps',key:syear+'_VP',idx:4.5};if(dateStr>cal.p[1]&&dateStr<cal.e)return{name:'Période 5 — Printemps → Été',key:syear+'_P5',idx:5};return{name:'Grandes Vacances',key:syear+'_GV',idx:6};}
+function getGroupKey(dateStr,gval,syear){if(gval==='period')return getPeriodForDate(dateStr,syear);var mkey=dateStr?dateStr.slice(0,7):'0000-00';var label=mkey==='0000-00'?'Sans date':MONTHS[parseInt(mkey.slice(5,7))-1]+' '+mkey.slice(0,4);return{name:label,key:mkey,idx:mkey};}
+
+var UNDO_STACK=[],REDO_STACK=[],MAX_UNDO=30;
+function pushUndo(){UNDO_STACK.push(JSON.stringify(ST.classData));if(UNDO_STACK.length>MAX_UNDO)UNDO_STACK.shift();REDO_STACK=[];showUndoBar();}
+function doUndo(){if(!UNDO_STACK.length)return;REDO_STACK.push(JSON.stringify(ST.classData));ST.classData=JSON.parse(UNDO_STACK.pop());saveST();render();showUndoBar();}
+function doRedo(){if(!REDO_STACK.length)return;UNDO_STACK.push(JSON.stringify(ST.classData));ST.classData=JSON.parse(REDO_STACK.pop());saveST();render();showUndoBar();}
+function showUndoBar(){var bar=document.getElementById('undoBar');if(!bar)return;var u=document.getElementById('undoCount');var r=document.getElementById('redoCount');if(u)u.textContent=UNDO_STACK.length;if(r)r.textContent=REDO_STACK.length;bar.className='undo-bar'+(UNDO_STACK.length||REDO_STACK.length?' on':'');}
+document.addEventListener('keydown',function(e){var tag=e.target.tagName;if(tag==='INPUT'||tag==='TEXTAREA'||tag==='SELECT')return;if(e.ctrlKey&&!e.shiftKey&&e.key==='z'){e.preventDefault();doUndo();}if(e.ctrlKey&&(e.key==='y'||(e.shiftKey&&e.key==='Z'))){e.preventDefault();doRedo();}});
+
+var ST={classes:[],activeCls:null,activeDomain:'home',classData:{}};
+function loadST(){try{var s=localStorage.getItem(SK);if(s)ST=JSON.parse(s);}catch(e){}if(!ST.classes)ST.classes=[];if(!ST.classData)ST.classData={};}
+function saveST(){try{localStorage.setItem(SK,JSON.stringify(ST));}catch(e){alert('Erreur: '+e.message);}}
+function today(){return new Date().toISOString().split('T')[0];}
+function fmtDate(d){if(!d)return'';var p=d.split('-');return p.length===3?p[2]+'/'+p[1]+'/'+p[0]:d;}
+function hexLum(hex){hex=hex.replace('#','');if(hex.length===3)hex=hex[0]+hex[0]+hex[1]+hex[1]+hex[2]+hex[2];var r=parseInt(hex.slice(0,2),16)/255;var g=parseInt(hex.slice(2,4),16)/255;var b=parseInt(hex.slice(4,6),16)/255;function l(c){return c<=0.03928?c/12.92:Math.pow((c+0.055)/1.055,2.4);}return 0.2126*l(r)+0.7152*l(g)+0.0722*l(b);}
+function textOnBg(hex){return hexLum(hex||'#7c3aed')>0.35?'#111':'#fff';}
+function safeHtml(t){if(!t)return'';return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function spiralHtml(spArr){if(!spArr||!spArr.length)return'';return spArr.map(function(s){return'<span class="nspiral">↩ '+fmtDate(s.date)+'</span>';}).join('');}
+
+function clsLevel(cls){return cls.level||'troisieme';}
+function lvlInfo(cls){return LEVELS[clsLevel(cls)]||LEVELS.troisieme;}
+function lvlCur(cls){return CUR[clsLevel(cls)]||CUR.troisieme;}
+
+function getCD(cid){
+  if(!ST.classData[cid])ST.classData[cid]={};
+  var cd=ST.classData[cid];
+  if(!cd.statuses)cd.statuses={};if(!cd.evals)cd.evals={};if(!cd.spiral)cd.spiral={};
+  if(!cd.delDomains)cd.delDomains=[];if(!cd.delModules)cd.delModules=[];if(!cd.delNotions)cd.delNotions=[];
+  if(!cd.customDomains)cd.customDomains=[];if(!cd.customModules)cd.customModules={};
+  if(!cd.customNotions)cd.customNotions={};if(!cd.customSections)cd.customSections={};
+  if(!cd.renamedModules)cd.renamedModules={};if(!cd.renamedDomains)cd.renamedDomains={};
+  if(!cd.renamedSections)cd.renamedSections={};if(!cd.renamedNotions)cd.renamedNotions={};
+  if(!cd.projects)cd.projects=[];
+  return cd;
+}
+function getDomains(cid){var cls=ST.classes.find(function(c){return c.id===cid;});var cd=getCD(cid);var base=lvlCur(cls);return base.filter(function(d){return!cd.delDomains.includes(d.id);}).concat((cd.customDomains||[]).filter(function(d){return!cd.delDomains.includes(d.id);}));}
+function getModules(cid,domain){var cd=getCD(cid);return(domain.modules||[]).filter(function(m){return!cd.delModules.includes(m.id);}).concat((cd.customModules[domain.id]||[]).filter(function(m){return!cd.delModules.includes(m.id);}));}
+function getSections(cid,domId,mod){var cd=getCD(cid);var out=[];(mod.sections||[]).forEach(function(s,i){var k=mod.id+'|'+i;if(cd.renamedSections[k]==='__DEL__')return;out.push({t:cd.renamedSections[k]||(s.t||''),n:s.n||[],si:i,src:'base'});});(cd.customSections[mod.id]||[]).forEach(function(s,i){out.push({t:s.t||'Section',n:s.n||[],si:i,src:'custom'});});return out;}
+function iterN(cid,domId,mod,fn){var cd=getCD(cid);getSections(cid,domId,mod).forEach(function(sec){(sec.n||[]).forEach(function(n,ni){var k=domId+'|'+mod.id+'|'+sec.si+'|'+ni;if(!cd.delNotions.includes(k))fn(k,cd.renamedNotions[k]||n,sec);});});(cd.customNotions[mod.id]||[]).forEach(function(cn){var k='cn|'+cn.id;if(!cd.delNotions.includes(k))fn(k,cn.text,null);});}
+function nKey(di,mi,si,ni){return di+'|'+mi+'|'+si+'|'+ni;}
+function modPct(cid,domId,mod){var cd=getCD(cid);var tot=0,done=0;iterN(cid,domId,mod,function(k){tot++;if((cd.statuses[k]||{}).s===3)done++;});return tot===0?0:Math.round(done/tot*100);}
+function domPct(cid,dom){var cd=getCD(cid);var tot=0,done=0;getModules(cid,dom).forEach(function(m){iterN(cid,dom.id,m,function(k){tot++;if((cd.statuses[k]||{}).s===3)done++;});});return tot===0?0:Math.round(done/tot*100);}
+function clsStats(cid){var cd=getCD(cid);var tot=0,done=0,inp=0,ev=0,sp=0;getDomains(cid).forEach(function(d){getModules(cid,d).forEach(function(m){if(cd.evals[m.id])ev++;iterN(cid,d.id,m,function(k){tot++;var s=(cd.statuses[k]||{}).s||0;if(s===3)done++;else if(s>0)inp++;if(cd.spiral[k]&&cd.spiral[k].length>0)sp++;});});});return{tot:tot,done:done,inp:inp,ev:ev,sp:sp,prj:(cd.projects||[]).length,pct:tot===0?0:Math.round(done/tot*100)};}
+function domNm(cid,d){var cd=getCD(cid);return cd.renamedDomains[d.id]||d.label;}
+function modNm(cid,m){var cd=getCD(cid);return cd.renamedModules[m.id]||m.name;}
+function domCol(cid,dom){var cls=ST.classes.find(function(c){return c.id===cid;});return dom.color||(cls?cls.color:'#7c3aed');}
+
+function render(){renderHeader();renderSidebar();renderMain();}
+function updateBars(){
+  var cid=ST.activeCls;if(!cid)return;
+  getDomains(cid).forEach(function(d){var p=domPct(cid,d);var el=document.getElementById('dpbar_'+d.id);if(el)el.style.width=p+'%';var pc=document.getElementById('navpct_'+d.id);if(pc)pc.textContent=p+'%';getModules(cid,d).forEach(function(m){var mp=modPct(cid,d.id,m);var mb=document.getElementById('mcb_'+m.id);if(mb)mb.style.width=mp+'%';var mp2=document.getElementById('mcpct_'+m.id);if(mp2)mp2.textContent=mp+'%';});});
+  var st=clsStats(cid);var ids={stot:st.tot,sdone:st.done,sinp:st.inp,sev:st.ev,ssp:st.sp,sprj:st.prj};for(var id in ids){var e2=document.getElementById(id);if(e2)e2.textContent=ids[id];}
+  var gp=document.getElementById('glob_pct');if(gp)gp.textContent=st.pct+'%';var gb=document.getElementById('glob_bar');if(gb)gb.style.width=st.pct+'%';
+  var scb=document.getElementById('sccb_'+cid);if(scb)scb.style.width=st.pct+'%';var scp=document.getElementById('sccp_'+cid);if(scp)scp.textContent=st.pct+'%';
+  if(ST.activeDomain!=='home'&&ST.activeDomain!=='projects'){var dom=getDomains(cid).find(function(d){return d.id===ST.activeDomain;});if(dom){var pp=domPct(cid,dom);var dpb=document.querySelector('.dp-b');if(dpb)dpb.style.width=pp+'%';var dpp=document.querySelector('.dp-pct');if(dpp)dpp.textContent=pp+'%';}}
+  renderHeader();getDomains(cid).forEach(function(d){var np2=document.getElementById('navpct_'+d.id);if(np2)np2.textContent=domPct(cid,d)+'%';});var np=document.getElementById('navpct_home');var sts2=clsStats(cid);if(np)np.textContent=sts2.pct+'%';
+}
+
+function renderHeader(){
+  var wrap=document.getElementById('hdrChips');if(!wrap)return;var html='';
+  ST.classes.forEach(function(c){
+    var act=ST.activeCls===c.id;var tc=act?textOnBg(c.color):'var(--dim)';
+    var bg=act?c.color:'var(--sf2)';var bc=act?c.color:'var(--bd2)';
+    var p=act?clsStats(c.id).pct+'%':'';var lv=lvlInfo(c);
+    html+='<button class="chip'+(act?' act':'')+'" style="background:'+bg+';color:'+tc+';border-color:'+bc+'" onclick="selectClass(\''+c.id+'\')">'
+      +'<span class="dot" style="background:'+(act?'rgba(255,255,255,.5)':c.color)+'"></span>'
+      +'<span class="chip-lbl">'+safeHtml(c.name)+'</span>'
+      +'<span style="font-size:.55rem;padding:1px 5px;border-radius:8px;background:'+(act?'rgba(255,255,255,.2)':'var(--bg2)')+';color:'+(act?'inherit':'var(--dim)')+'">'+lv.badge+'</span>'
+      +(p?'<span style="font-size:.63rem;opacity:.9"> · '+p+'</span>':'')
+      +'</button>';
+  });
+  html+='<button class="chip-add" onclick="showAddClass()">＋ Classe</button>';
+  wrap.innerHTML=html;
+}
+
+function renderSidebar(){
+  var cid=ST.activeCls;var html='';
+  html+='<div class="sb-mobile-acts">'
+    +'<button class="sbact" onclick="saveJSON();closeSidebar()">💾 Sauvegarder</button>'
+    +'<button class="sbact" onclick="document.getElementById(\'impF\').click();closeSidebar()">📂 Importer</button>'
+    +'<button class="sbact" onclick="openReport();closeSidebar()">📄 Rapport</button>'
+    +'<button class="sbact" onclick="openModal(\'helpModal\');closeSidebar()">❓ Aide</button>'
+  +'</div>';
+  html+='<div class="sb-sec">Mes classes</div>';
+  ST.classes.forEach(function(c){
+    var act=cid===c.id;var st2=clsStats(c.id);var lv=lvlInfo(c);
+    html+='<div class="scc" onclick="selectClass(\''+c.id+'\')" style="border-color:'+(act?c.color:'var(--bd)')+';background:'+(act?'color-mix(in srgb,'+c.color+' 10%,white)':'var(--sf2)')+'">'+
+      '<div class="scc-head"><div class="scc-dot" style="background:'+c.color+'"></div>'+
+      '<div class="scc-inf"><div class="scc-nm">'+safeHtml(c.name)+'</div>'+
+      '<div class="scc-meta"><span class="lvl-badge '+lv.cls+'">'+lv.badge+'</span> Techno · BO 2024'+(c.year?' · '+c.year:'')+(c.etab?' · '+safeHtml(c.etab):'')+'</div></div>'+
+      '<div class="scc-acts" onclick="event.stopPropagation()">'+
+        '<button class="scc-btn" onclick="editClass(\''+c.id+'\')" title="Modifier">✏️</button>'+
+        '<button class="scc-btn del" onclick="deleteClass(\''+c.id+'\')" title="Supprimer">🗑</button>'+
+      '</div></div>'+
+      '<div class="scc-prog"><div class="scc-bw"><div class="scc-b" id="sccb_'+c.id+'" style="width:'+st2.pct+'%;background:'+c.color+'"></div></div>'+
+      '<span class="scc-pct" id="sccp_'+c.id+'" style="color:'+c.color+'">'+st2.pct+'%</span></div></div>';
+  });
+  html+='<button class="sb-add-cls" onclick="showAddClass()">＋ Nouvelle classe</button>';
+  if(cid){
+    var cls=ST.classes.find(function(c){return c.id===cid;});var lv=lvlInfo(cls);
+    html+='<div class="sb-sec" style="margin-top:4px">Programme <span class="lvl-badge '+lv.cls+'">'+lv.badge+'</span></div>';
+    html+='<div class="nav-row'+(ST.activeDomain==='home'?' act':'')+'" onclick="setDomain(\'home\')">'
+      +'<span class="nav-ico">🏠</span><span class="nav-nm">Vue d\'ensemble</span>'
+      +'<span class="nav-pc" id="navpct_home">'+clsStats(cid).pct+'%</span></div>';
+    getDomains(cid).forEach(function(d){
+      var act=ST.activeDomain===d.id?' act':'';
+      html+='<div class="nav-row'+act+'" onclick="setDomain(\''+d.id+'\')">'
+        +'<span class="nav-ico">'+d.icon+'</span><span class="nav-nm">'+domNm(cid,d)+'</span>'
+        +'<span class="nav-pc" id="navpct_'+d.id+'">'+domPct(cid,d)+'%</span>'
+        +'<button class="nav-del" onclick="event.stopPropagation();delDomain(\''+cid+'\',\''+d.id+'\')" title="Supprimer">×</button></div>';
+    });
+    html+='<button class="sb-add-dom" onclick="addDomain(\''+cid+'\')">＋ Nouveau domaine</button>';
+    var cd=getCD(cid);var prjAct=ST.activeDomain==='projects'?' act':'';
+    html+='<div class="nav-projects'+prjAct+'" onclick="setDomain(\'projects\')">'
+      +'<span class="nav-ico">🗂️</span><span class="nav-nm">Projets</span>'
+      +'<span class="nav-pc" style="color:var(--ora)">'+(cd.projects||[]).length+'</span></div>';
+  }
+  document.getElementById('sbScroll').innerHTML=html;
+}
+
+function renderMain(){
+  var cid=ST.activeCls;
+  if(!cid){renderWelcome();return;}
+  if(ST.activeDomain==='home'){renderHome(cid);return;}
+  if(ST.activeDomain==='projects'){renderProjects(cid);return;}
+  var dom=getDomains(cid).find(function(d){return d.id===ST.activeDomain;});
+  if(!dom){renderHome(cid);return;}
+  renderDomain(cid,dom);
+}
+
+function renderWelcome(){
+  document.getElementById('mainArea').innerHTML=
+    '<div class="home-hero"><h1>Progression Techno<br>Cycle 4</h1>'
+    +'<p>Suivi pédagogique conforme au nouveau BO 2024 — 3 niveaux distincts : 5ème · 4ème · 3ème.<br>Compétences propres à chaque niveau issues des tableaux de progressivité officiels.</p>'
+    +'<div class="hero-btns"><button class="hbtn-hero pri" onclick="showAddClass()">＋ Créer ma première classe</button>'
+    +'<button class="hbtn-hero sec" onclick="document.getElementById(\'impF\').click()">📂 Importer JSON</button></div></div>'
+    +'<div style="font-size:.79rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--text);margin-bottom:10px">Ce qui change avec 3 niveaux distincts</div>'
+    +'<div class="guide-grid">'
+    +'<div class="guide-card" style="border-top:3px solid #c97800"><div class="guide-ico"><span class="lvl-badge lb-5">5ème</span></div><div class="guide-ttl">Compétences 5ème</div><div class="guide-txt">Première approche : observer, manipuler, lire des schémas fournis, modifier des programmes existants, identifier.</div></div>'
+    +'<div class="guide-card" style="border-top:3px solid #1a6fa0"><div class="guide-ico"><span class="lvl-badge lb-4">4ème</span></div><div class="guide-ttl">Compétences 4ème</div><div class="guide-txt">Approfondissement : analyser, comparer, compléter, construire des schémas, choisir des procédés, paramétrer.</div></div>'
+    +'<div class="guide-card" style="border-top:3px solid #7c3aed"><div class="guide-ico"><span class="lvl-badge lb-3">3ème</span></div><div class="guide-ttl">Compétences 3ème</div><div class="guide-txt">Maîtrise : concevoir, argumenter, créer des algorithmes, planifier un projet complet, valider une solution.</div></div>'
+    +'<div class="guide-card" style="border-top:3px solid var(--green)"><div class="guide-ico">✅</div><div class="guide-ttl">Notions niveau-exact</div><div class="guide-txt">Chaque classe a ses propres compétences extraites des colonnes du tableau de progressivité du BO.</div></div>'
+    +'<div class="guide-card" style="border-top:3px solid var(--ora)"><div class="guide-ico">🗂️</div><div class="guide-ttl">Projets multi-niveaux</div><div class="guide-txt">Suivez vos projets quel que soit le niveau : robotique, domotique, impression 3D, programmation.</div></div>'
+    +'<div class="guide-card" style="border-top:3px solid var(--teal)"><div class="guide-ico">🔒</div><div class="guide-ttl">100 % local · BO 2024</div><div class="guide-txt">Aucune donnée transmise. Données enregistrées dans votre navigateur. Ctrl+Z/Y disponibles.</div></div>'
+    +'</div>'
+    +'<div style="padding:10px 14px;background:var(--vio-bg);border:1px solid var(--vio-lt);border-radius:var(--r);font-size:.74rem;color:var(--vio-dk);max-width:500px">ℹ️ Le BO 2024 entre en vigueur : 5ème dès 2024-2025, 4ème dès 2025-2026, 3ème dès 2026-2027. L\'ancien programme reste valide pour la 3ème jusqu\'en 2025-2026.</div>';
+}
+
+function renderHome(cid){
+  var cls=ST.classes.find(function(c){return c.id===cid;});
+  var st=clsStats(cid);var tc=textOnBg(cls.color);var lv=lvlInfo(cls);
+  var html='<div class="home-hero" style="background:linear-gradient(135deg,'+cls.color+' 0%,'+cls.color+'cc 100%);color:'+tc+'">'
+    +'<h1 style="font-size:1.2rem">🔬 '+safeHtml(cls.name)+' <span style="font-size:.7rem;opacity:.85;font-weight:600">'+lv.label+'</span></h1>'
+    +'<p style="color:'+(tc==='#fff'?'rgba(255,255,255,.85)':'rgba(0,0,0,.7)')+';margin-bottom:8px">Techno · BO 2024 · '+lv.label+(cls.year?' · '+cls.year:'')+(cls.etab?' · '+safeHtml(cls.etab):'')+(cls.teacher?' · '+safeHtml(cls.teacher):'')+'</p>'
+    +'<div style="height:8px;background:'+(tc==='#fff'?'rgba(255,255,255,.28)':'rgba(0,0,0,.15)')+';border-radius:4px;overflow:hidden;max-width:300px;margin-bottom:4px"><div id="glob_bar" style="height:100%;width:'+st.pct+'%;background:'+(tc==='#fff'?'#fff':'rgba(0,0,0,.5)')+';border-radius:4px;transition:width .4s"></div></div>'
+    +'<div id="glob_pct" style="font-size:.76rem;opacity:.9">'+st.pct+'% maîtrisé</div></div>'
+    +'<div class="stats-row">'
+    +'<div class="stat-c"><div class="stat-n" id="stot">'+st.tot+'</div><div class="stat-l">Notions</div></div>'
+    +'<div class="stat-c"><div class="stat-n" id="sdone" style="color:var(--green)">'+st.done+'</div><div class="stat-l">Maîtrisées ('+st.pct+'%)</div></div>'
+    +'<div class="stat-c"><div class="stat-n" id="ssp" style="color:var(--teal)">'+st.sp+'</div><div class="stat-l">Spiralaires</div></div>'
+    +'<div class="stat-c"><div class="stat-n" id="sprj" style="color:var(--ora)">'+st.prj+'</div><div class="stat-l">Projets</div></div>'
+    +'</div>'
+    +'<div style="font-size:.71rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--dim);margin-bottom:9px">Thèmes · '+lv.label+' · BO 2024</div>'
+    +'<div class="dom-grid">';
+  getDomains(cid).forEach(function(d){
+    var p=domPct(cid,d);var col=domCol(cid,d);
+    html+='<div class="dcard" onclick="setDomain(\''+d.id+'\')" style="border-top:3px solid '+col+'">'
+    +'<div class="dc-ico">'+d.icon+'</div>'
+    +'<div class="dc-nm">'+safeHtml(domNm(cid,d))+'</div>'
+    +'<div class="dc-sb">'+(d.modules||[]).length+' modules</div>'
+    +'<div class="bw"><div id="dpbar_'+d.id+'" class="b" style="width:'+p+'%;background:'+col+'"></div></div>'
+    +'<div class="pct-t" style="color:'+col+'">'+p+'%</div></div>';
+  });
+  var cd=getCD(cid);var prjs=cd.projects||[];var done_prj=prjs.filter(function(p){return p.status===3;}).length;
+  html+='<div class="dcard" onclick="setDomain(\'projects\')" style="border-top:3px solid var(--ora)">'
+    +'<div class="dc-ico">🗂️</div><div class="dc-nm">Projets</div>'
+    +'<div class="dc-sb">'+prjs.length+' projet'+(prjs.length>1?'s':'')+' · '+done_prj+' terminé'+(done_prj>1?'s':'')+'</div>'
+    +'<div class="bw"><div class="b" style="width:'+(prjs.length?Math.round(done_prj/prjs.length*100):0)+'%;background:var(--ora)"></div></div>'
+    +'<div class="pct-t" style="color:var(--ora)">'+(prjs.length?Math.round(done_prj/prjs.length*100)+'%':'—')+'</div></div>';
+  html+='</div>';
+  document.getElementById('mainArea').innerHTML=html;
+}
+
+function renderDomain(cid,dom){
+  var cd=getCD(cid);var col=domCol(cid,dom);var p=domPct(cid,dom);var mods=getModules(cid,dom);
+  var cls=ST.classes.find(function(c){return c.id===cid;});var lv=lvlInfo(cls);
+  var tot=0,done=0,evC=0,diagC=0;mods.forEach(function(m){iterN(cid,dom.id,m,function(k,txt){tot++;if((cd.statuses[k]||{}).s===3)done++;if(isDiagram(txt))diagC++;});if(cd.evals[m.id])evC++;});
+  var html='<div style="margin-bottom:12px">'
+    +'<div class="dom-tag" style="background:'+col+'18;color:'+col+'">'+dom.icon+' '+safeHtml(domNm(cid,dom))
+    +' <span class="lvl-badge '+lv.cls+'">'+lv.badge+'</span>'
+    +' <button onclick="renameDomain(\''+cid+'\',\''+dom.id+'\')" style="background:rgba(0,0,0,.06);border:1px solid rgba(0,0,0,.12);border-radius:4px;font-size:.65rem;color:'+col+';cursor:pointer;padding:2px 5px;font-weight:700">✏️</button></div>'
+    +'<div class="dom-ttl">'+safeHtml(domNm(cid,dom))+'</div>'
+    +'<div class="dom-desc">'+(dom.desc||'')+'</div>'
+    +'<div class="dom-prog"><div class="dp-bw"><div class="dp-b" style="width:'+p+'%;background:'+col+'"></div></div>'
+    +'<span class="dp-pct" style="color:'+col+'">'+p+'%</span>'
+    +'<span class="dp-inf">maîtrisé · '+done+'/'+tot+' · '+evC+' éval. · '+diagC+' 📐 diagrammes</span></div></div>'
+    +'<div class="legend"><div class="li"><div class="ldot" style="background:var(--bg3);border:1px solid var(--bd2)"></div>Non travaillé</div>'
+    +'<div class="li"><div class="ldot" style="background:var(--amber-bg);border:1px solid var(--amber)"></div>🌱 En cours</div>'
+    +'<div class="li"><div class="ldot" style="background:var(--purple-bg);border:1px solid var(--purple)"></div>🔵 En révision</div>'
+    +'<div class="li"><div class="ldot" style="background:var(--green-bg);border:1px solid var(--green)"></div>✅ Maîtrisé</div>'
+    +'<div class="li"><div class="ldot" style="background:var(--vio-bg);border:1px solid var(--vio)"></div>📐 Outil graphique</div>'
+    +'<span style="margin-left:auto;font-size:.61rem;color:var(--lt)">Ctrl+Z = annuler</span></div>';
+  mods.forEach(function(m){html+=renderMod(cid,dom.id,m,col);});
+  html+='<button class="add-mod-btn" onclick="addModule(\''+cid+'\',\''+dom.id+'\')">＋ Ajouter un module</button>';
+  document.getElementById('mainArea').innerHTML=html;
+  mods.forEach(function(m){if(sessionStorage.getItem('op_'+m.id)==='1'){var el=document.getElementById('mc_'+m.id);if(el)el.classList.add('open');}});
+}
+
+function renderMod(cid,domId,mod,col){
+  var cd=getCD(cid);var p=modPct(cid,domId,mod);var isEv=cd.evals[mod.id]||false;var secs=getSections(cid,domId,mod);var body='';
+  secs.forEach(function(sec){
+    body+='<div class="sec-hd"><span class="sec-ttl">'+safeHtml(sec.t)+'</span>'
+      +'<button class="sec-btn edt" onclick="renameSection(\''+cid+'\',\''+mod.id+'\','+sec.si+',\''+sec.src+'\')" title="Renommer">✏️</button>'
+      +'<button class="sec-btn add" onclick="showAddN(\''+cid+'\',\''+domId+'\',\''+mod.id+'\','+sec.si+')" title="Ajouter">＋</button>'
+      +'<button class="sec-btn del" onclick="delSection(\''+cid+'\',\''+domId+'\',\''+mod.id+'\','+sec.si+',\''+sec.src+'\')" title="Supprimer">×</button></div>'
+      +'<div id="sb_'+mod.id+'_'+sec.si+'">';
+    (sec.n||[]).forEach(function(n,ni){
+      var k=nKey(domId,mod.id,sec.si,ni);if(cd.delNotions.includes(k))return;
+      var txt=cd.renamedNotions[k]||n;var sv=cd.statuses[k]||{s:0,d:null};var sp=cd.spiral[k]||[];
+      body+=mkNRow(k,txt,sv,sp,"cycleStatus('"+k+"')","startRenameN('"+k+"')","delNotionKey('"+k+"')","addSpiral('"+k+"')");
+    });
+    body+='</div><div id="anr_'+mod.id+'_'+sec.si+'" style="display:none"><div class="add-nr-row">'
+      +'<input class="add-inp" id="ani_'+mod.id+'_'+sec.si+'" placeholder="Nouvelle notion…" onkeydown="if(event.key===\'Enter\')confAddN(\''+cid+'\',\''+domId+'\',\''+mod.id+'\','+sec.si+')">'
+      +'<button class="add-ok" onclick="confAddN(\''+cid+'\',\''+domId+'\',\''+mod.id+'\','+sec.si+')">OK</button>'
+      +'<button class="add-cancel" onclick="hideAddN(\''+mod.id+'\',\''+sec.si+'\')">✕</button></div></div>';
+  });
+  var cns=(cd.customNotions[mod.id]||[]).filter(function(cn){return!cd.delNotions.includes('cn|'+cn.id);});
+  body+='<div class="sec-hd"><span class="sec-ttl" style="color:var(--vio)">Notions personnalisées</span>'
+    +'<button class="sec-btn add" onclick="showAddCN(\''+cid+'\',\''+domId+'\',\''+mod.id+'\')" title="Ajouter">＋</button></div>';
+  cns.forEach(function(cn){var k='cn|'+cn.id;var sv=cd.statuses[k]||{s:0,d:null};var sp=cd.spiral[k]||[];body+=mkNRow(k,cn.text,sv,sp,"cycleStatus('"+k+"')","startRenameN('"+k+"')","delCN('"+cid+"','"+mod.id+"','"+cn.id+"')","addSpiral('"+k+"')");});
+  body+='<div id="anr_'+mod.id+'_cn" style="display:none"><div class="add-nr-row">'
+    +'<input class="add-inp" id="ani_'+mod.id+'_cn" placeholder="Notion personnalisée…" onkeydown="if(event.key===\'Enter\')confAddCN(\''+cid+'\',\''+domId+'\',\''+mod.id+'\')">'
+    +'<button class="add-ok" onclick="confAddCN(\''+cid+'\',\''+domId+'\',\''+mod.id+'\')">OK</button>'
+    +'<button class="add-cancel" onclick="hideAddN(\''+mod.id+'\',\'cn\')">✕</button></div></div>'
+    +'<button class="add-sec-btn" onclick="showAddCN(\''+cid+'\',\''+domId+'\',\''+mod.id+'\')">＋ Notion personnalisée</button>'
+    +'<button class="add-sec-btn" onclick="addSection(\''+cid+'\',\''+domId+'\',\''+mod.id+'\')">＋ Nouvelle section</button>';
+
+  return '<div class="mc" id="mc_'+mod.id+'">'
+    +'<div class="mc-hd" onclick="toggleMod(\''+mod.id+'\')">'
+    +'<div class="mc-ico" style="background:'+col+'18;color:'+col+'">'+( mod.icon||'📋')+'</div>'
+    +'<div class="mc-inf"><div class="mc-nm">'+safeHtml(modNm(cid,mod))+'</div>'
+    +(mod.note?'<div class="mc-note">'+safeHtml(mod.note)+'</div>':'')
+    +'<div class="mc-bw"><div class="mc-b" id="mcb_'+mod.id+'" style="width:'+p+'%;background:'+col+'"></div></div></div>'
+    +'<div class="mc-rt">'
+    +'<span class="mc-pct" id="mcpct_'+mod.id+'" style="color:'+col+'">'+p+'%</span>'
+    +'<button class="mc-all" onclick="event.stopPropagation();checkAllMod(\''+cid+'\',\''+mod.id+'\')" title="Tout maîtrisé">✓ Maîtrisé</button>'
+    +'<button class="ev-btn'+(isEv?' on':'')+'" id="evbtn_'+mod.id+'" onclick="event.stopPropagation();toggleEval(\''+cid+'\',\''+mod.id+'\')">'+(isEv?'✓':'○')+' Évalué</button>'
+    +'<button class="mc-act" onclick="event.stopPropagation();renameModule(\''+cid+'\',\''+mod.id+'\')" title="Renommer">✏️</button>'
+    +'<button class="mc-act del" onclick="event.stopPropagation();delModule(\''+cid+'\',\''+mod.id+'\')" title="Supprimer">🗑</button>'
+    +'<span class="mc-chev">▶</span></div></div>'
+    +'<div class="mc-body">'+body+'</div></div>';
+}
+
+function mkNRow(key,text,sv,spArr,clickFn,renameFn,delFn,spiralFn){
+  var sc=SCLS[sv.s]||'';var safe=key.replace(/[\|]/g,'_');var textE=safeHtml(text||'');var hasSp=spArr&&spArr.length>0;var isDiag=isDiagram(text);
+  return '<div class="nr'+(isDiag?' diagram-row':'')+'" id="nr_'+safe+'">'
+    +'<button class="sts '+sc+'" onclick="'+clickFn+'" title="Changer le statut">'+SICO[sv.s]+'</button>'
+    +'<span class="mtxt'+(sv.s===3?' done':'')+'" id="nt_'+safe+'">'+textE+'</span>'
+    +'<input class="nedit-inp" id="nei_'+safe+'" value="'+textE+'"'
+    +' onkeydown="if(event.key===\'Enter\')confRenN(\''+key.replace(/'/g,"\\'")+'\')'
+    +';if(event.key===\'Escape\')cancelRenN(\''+key.replace(/'/g,"\\'")+'\')">'
+    +'<div class="nmeta"><span class="nbg '+NBCLS[sv.s]+'">'+SLBL[sv.s]+'</span>'
+    +(sv.d?'<span class="ndate">'+fmtDate(sv.d)+'</span>':'')
+    +'<span id="nsp_'+safe+'" class="nspiral-wrap">'+spiralHtml(spArr)+'</span>'
+    +'<div class="nr-acts">'
+    +'<button class="nr-act" onclick="'+renameFn+'" title="Renommer">✏️</button>'
+    +'<button class="nr-act del" onclick="'+delFn+'" title="Supprimer">×</button>'
+    +'<button class="nr-act spiral'+(hasSp?' on':'')+'" id="spbtn_'+safe+'" onclick="'+spiralFn+'" title="Ajouter une date de réabord">↩</button>'
+    +'</div></div></div>';
+}
+
+// Projects
+function renderProjects(cid){
+  var cd=getCD(cid);var prjs=cd.projects||[];var done_c=prjs.filter(function(p){return p.status===3;}).length;
+  var html='<div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">'
+    +'<h2 style="font-size:1.1rem;font-weight:800;flex:1">🗂️ Projets de la classe</h2>'
+    +'<button class="mb mb-o" onclick="showAddProject(\''+cid+'\')">＋ Nouveau projet</button></div>';
+  if(!prjs.length){
+    html+='<div style="text-align:center;padding:40px 20px;color:var(--dim)">'
+      +'<div style="font-size:2.5rem;margin-bottom:10px">🗂️</div>'
+      +'<div style="font-size:.88rem;font-weight:600;margin-bottom:6px">Aucun projet pour l\'instant</div>'
+      +'<div style="font-size:.76rem;margin-bottom:16px">Créez vos projets pour suivre leur avancement tout au long de l\'année.</div>'
+      +'<button class="mb mb-o" onclick="showAddProject(\''+cid+'\')">＋ Créer le premier projet</button></div>';
+  } else {
+    html+='<div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px;font-size:.75rem"><span style="color:var(--dim)">'+prjs.length+' projet'+(prjs.length>1?'s':'')+' · '+done_c+' terminé'+(done_c>1?'s':'')+'</span></div><div class="prj-grid">';
+    prjs.forEach(function(prj,i){
+      var pct=prj.status===3?100:prj.status===2?66:prj.status===1?33:5;
+      html+='<div class="prj-card">'
+        +'<div class="prj-top"><span class="prj-ico">'+PSICO[prj.status||0]+'</span><span class="prj-nm">'+safeHtml(prj.name)+'</span>'+(prj.theme?'<span class="prj-theme">'+safeHtml(prj.theme)+'</span>':'')+'</div>'
+        +(prj.description?'<div class="prj-desc">'+safeHtml(prj.description)+'</div>':'')
+        +'<div class="prj-tools">'+(prj.tools||[]).map(function(t){return'<span class="prj-tool">'+safeHtml(TOOLS[t]||t)+'</span>';}).join('')+'</div>'
+        +'<div class="prj-bw"><div class="prj-b" style="width:'+pct+'%;background:'+(prj.status===3?'var(--green)':prj.status===2?'var(--teal)':prj.status===1?'var(--vio)':'var(--amber)')+'"></div></div>'
+        +'<div class="prj-foot"><span class="prj-status '+PSCLS[prj.status||0]+'">'+PSICO[prj.status||0]+' '+PSLBL[prj.status||0]+'</span>'
+        +'<div class="prj-acts"><button class="prj-btn" onclick="editProject(\''+cid+'\','+i+')">✏️</button>'
+        +(prj.status<3?'<button class="prj-btn" onclick="advanceProject(\''+cid+'\','+i+')" title="Avancer">→</button>':'')
+        +'<button class="prj-btn del" onclick="deleteProject(\''+cid+'\','+i+')" title="Supprimer">🗑</button>'
+        +'</div></div></div>';
+    });
+    html+='</div>';
+  }
+  document.getElementById('mainArea').innerHTML=html;
+}
+function showAddProject(cid){document.getElementById('prj_editId').value='';document.getElementById('prj_editIdx').value='';document.getElementById('prjModalTitle').textContent='Nouveau projet';document.getElementById('prj_name').value='';document.getElementById('prj_theme').value='';document.getElementById('prj_desc').value='';document.getElementById('prj_status').value='0';document.querySelectorAll('.tool-sw').forEach(function(b){b.classList.remove('on');});openModal('prjModal');}
+function editProject(cid,idx){var cd=getCD(cid);var prj=cd.projects[idx];if(!prj)return;document.getElementById('prj_editId').value=cid;document.getElementById('prj_editIdx').value=idx;document.getElementById('prjModalTitle').textContent='Modifier le projet';document.getElementById('prj_name').value=prj.name||'';document.getElementById('prj_theme').value=prj.theme||'';document.getElementById('prj_desc').value=prj.description||'';document.getElementById('prj_status').value=String(prj.status||0);var tools=prj.tools||[];document.querySelectorAll('.tool-sw').forEach(function(b){b.classList.toggle('on',tools.includes(b.dataset.t));});openModal('prjModal');}
+function saveProject(){var name=document.getElementById('prj_name').value.trim();if(!name){alert('Nom requis');return;}var cid=document.getElementById('prj_editId').value||ST.activeCls;var idx=document.getElementById('prj_editIdx').value;var status=parseInt(document.getElementById('prj_status').value)||0;var tools=[];document.querySelectorAll('.tool-sw.on').forEach(function(b){tools.push(b.dataset.t);});var prj={name:name,theme:document.getElementById('prj_theme').value.trim(),description:document.getElementById('prj_desc').value.trim(),status:status,tools:tools};pushUndo();var cd=getCD(cid);if(idx!==''){cd.projects[parseInt(idx)]=prj;}else{cd.projects.push(prj);}saveST();closeModal('prjModal');renderProjects(cid);renderSidebar();}
+function advanceProject(cid,idx){var cd=getCD(cid);if(!cd.projects[idx])return;pushUndo();cd.projects[idx].status=Math.min(3,(cd.projects[idx].status||0)+1);saveST();renderProjects(cid);renderSidebar();}
+function deleteProject(cid,idx){if(!confirm('Supprimer ce projet ?'))return;pushUndo();var cd=getCD(cid);cd.projects.splice(idx,1);saveST();renderProjects(cid);renderSidebar();}
+
+function setDomain(id){ST.activeDomain=id;saveST();renderSidebar();renderMain();}
+function selectClass(cid){ST.activeCls=cid;ST.activeDomain='home';saveST();render();closeSidebar();}
+function toggleMod(id){var el=document.getElementById('mc_'+id);if(!el)return;el.classList.toggle('open');sessionStorage.setItem('op_'+id,el.classList.contains('open')?'1':'0');}
+
+function checkAllMod(cid,mid){var cd=getCD(cid);var d2=today();var dom=getDomains(cid).find(function(d){return getModules(cid,d).find(function(m){return m.id===mid;});});if(!dom)return;var mod=getModules(cid,dom).find(function(m){return m.id===mid;});if(!mod)return;pushUndo();iterN(cid,dom.id,mod,function(k){cd.statuses[k]={s:3,d:d2};var safe=k.replace(/[\|]/g,'_');var nr=document.getElementById('nr_'+safe);if(nr){var sb=nr.querySelector('.sts');var tx=document.getElementById('nt_'+safe);var bg=nr.querySelector('.nbg');if(sb){sb.className='sts s3';sb.textContent=SICO[3];}if(tx)tx.className='mtxt done';if(bg){bg.className='nbg nb3';bg.textContent=SLBL[3];}var dEl=nr.querySelector('.ndate');if(!dEl){var mt=nr.querySelector('.nmeta');if(mt){var d3=document.createElement('span');d3.className='ndate';d3.textContent=fmtDate(d2);mt.insertBefore(d3,mt.querySelector('.nr-acts'));}}}});var mb=document.getElementById('mcb_'+mid);if(mb)mb.style.width='100%';var mpct=document.getElementById('mcpct_'+mid);if(mpct)mpct.textContent='100%';saveST();updateBars();}
+function cycleStatus(key){var cid=ST.activeCls;if(!cid)return;var cd=getCD(cid);var cur=cd.statuses[key]||{s:0,d:null};var ns=(cur.s+1)%4;pushUndo();cd.statuses[key]={s:ns,d:ns===3?today():(ns===0?null:cur.d)};saveST();var safe=key.replace(/[\|]/g,'_');var nr=document.getElementById('nr_'+safe);if(nr){var sb=nr.querySelector('.sts');var tx=document.getElementById('nt_'+safe);var bg=nr.querySelector('.nbg');if(sb){sb.className='sts'+(ns>0?' '+SCLS[ns]:'');sb.textContent=SICO[ns];}if(tx)tx.className='mtxt'+(ns===3?' done':'');if(bg){bg.className='nbg '+NBCLS[ns];bg.textContent=SLBL[ns];}var dEl=nr.querySelector('.ndate');if(ns===3&&!dEl){var mt=nr.querySelector('.nmeta');if(mt){var d=document.createElement('span');d.className='ndate';d.textContent=fmtDate(today());mt.insertBefore(d,mt.querySelector('.nr-acts'));}}else if(ns===0&&dEl)dEl.remove();}updateBars();}
+function addSpiral(key){var cid=ST.activeCls;if(!cid)return;var cd=getCD(cid);pushUndo();if(!cd.spiral[key]||!Array.isArray(cd.spiral[key]))cd.spiral[key]=[];cd.spiral[key].push({date:today()});saveST();var safe=key.replace(/[\|]/g,'_');var sp=document.getElementById('nsp_'+safe);if(sp)sp.innerHTML=spiralHtml(cd.spiral[key]);var btn=document.getElementById('spbtn_'+safe);if(btn)btn.className='nr-act spiral on';updateBars();}
+function toggleEval(cid,mid){var cd=getCD(cid);pushUndo();cd.evals[mid]=!cd.evals[mid];saveST();var btn=document.getElementById('evbtn_'+mid);if(btn){var on=cd.evals[mid];btn.className='ev-btn'+(on?' on':'');btn.innerHTML=(on?'✓':'○')+' Évalué';}updateBars();}
+function showAddN(cid,domId,mid,si){var e=document.getElementById('anr_'+mid+'_'+si);if(e)e.style.display='block';var i=document.getElementById('ani_'+mid+'_'+si);if(i)i.focus();}
+function hideAddN(mid,si){var e=document.getElementById('anr_'+mid+'_'+si);if(e)e.style.display='none';}
+function confAddN(cid,domId,mid,si){var i=document.getElementById('ani_'+mid+'_'+si);if(!i)return;var txt=i.value.trim();if(!txt)return;pushUndo();var cd=getCD(cid);if(!cd.customNotions[mid])cd.customNotions[mid]=[];cd.customNotions[mid].push({id:'cn'+Date.now(),text:txt});i.value='';saveST();var dom=getDomains(cid).find(function(d){return d.id===domId;});if(dom)renderDomain(cid,dom);}
+function showAddCN(cid,domId,mid){var e=document.getElementById('anr_'+mid+'_cn');if(e)e.style.display='block';var i=document.getElementById('ani_'+mid+'_cn');if(i)i.focus();}
+function confAddCN(cid,domId,mid){var i=document.getElementById('ani_'+mid+'_cn');if(!i)return;var txt=i.value.trim();if(!txt)return;pushUndo();var cd=getCD(cid);if(!cd.customNotions[mid])cd.customNotions[mid]=[];cd.customNotions[mid].push({id:'cn'+Date.now(),text:txt});i.value='';saveST();var dom=getDomains(cid).find(function(d){return d.id===domId;});if(dom)renderDomain(cid,dom);}
+function delNotionKey(key){var cid=ST.activeCls;if(!cid)return;pushUndo();var cd=getCD(cid);if(!cd.delNotions.includes(key))cd.delNotions.push(key);saveST();var nr=document.getElementById('nr_'+key.replace(/[\|]/g,'_'));if(nr)nr.remove();updateBars();}
+function delCN(cid,mid,cnId){pushUndo();var cd=getCD(cid);var k='cn|'+cnId;if(!cd.delNotions.includes(k))cd.delNotions.push(k);if(cd.customNotions[mid])cd.customNotions[mid]=cd.customNotions[mid].filter(function(c){return c.id!==cnId;});saveST();var dom=getDomains(cid).find(function(d){return d.id===ST.activeDomain;});if(dom)renderDomain(cid,dom);}
+function startRenameN(key){var safe=key.replace(/[\|]/g,'_');var nr=document.getElementById('nr_'+safe);if(!nr)return;nr.classList.add('editing');var ei=document.getElementById('nei_'+safe);if(ei){ei.style.display='block';ei.focus();ei.select();}}
+function confRenN(key){var safe=key.replace(/[\|]/g,'_');var ei=document.getElementById('nei_'+safe);if(!ei)return;var nv=ei.value.trim();var cid=ST.activeCls;if(!cid)return;pushUndo();var cd=getCD(cid);if(key.indexOf('cn|')===0){var cnId=key.slice(3);for(var mid in cd.customNotions){var arr=cd.customNotions[mid];for(var i=0;i<arr.length;i++){if(arr[i].id===cnId){arr[i].text=nv||arr[i].text;break;}}}}else{if(nv)cd.renamedNotions[key]=nv;}saveST();var nr=document.getElementById('nr_'+safe);if(nr)nr.classList.remove('editing');ei.style.display='none';if(nv){var tx=document.getElementById('nt_'+safe);if(tx)tx.textContent=nv;}}
+function cancelRenN(key){var safe=key.replace(/[\|]/g,'_');var nr=document.getElementById('nr_'+safe);if(nr)nr.classList.remove('editing');var ei=document.getElementById('nei_'+safe);if(ei)ei.style.display='none';}
+function renameModule(cid,mid){var cd=getCD(cid);var cur='';getDomains(cid).forEach(function(d){getModules(cid,d).forEach(function(m){if(m.id===mid)cur=modNm(cid,m);});});var nv=prompt('Nouveau nom :',cur);if(nv&&nv.trim()){pushUndo();cd.renamedModules[mid]=nv.trim();saveST();render();}}
+function renameDomain(cid,did){var cd=getCD(cid);var dom=getDomains(cid).find(function(d){return d.id===did;});if(!dom)return;var nv=prompt('Nouveau nom :',domNm(cid,dom));if(nv&&nv.trim()){pushUndo();cd.renamedDomains[did]=nv.trim();saveST();render();}}
+function renameSection(cid,mid,si,src){var cd=getCD(cid);var cur='';getDomains(cid).forEach(function(d){getModules(cid,d).forEach(function(m){if(m.id===mid){var secs=getSections(cid,d.id,m);var sec=secs.find(function(s){return s.si===si;});if(sec)cur=sec.t;}});});var nv=prompt('Nouveau nom de la section :',cur);if(!nv||!nv.trim())return;pushUndo();if(src==='custom'){if(cd.customSections&&cd.customSections[mid]&&cd.customSections[mid][si])cd.customSections[mid][si].t=nv.trim();}else{cd.renamedSections[mid+'|'+si]=nv.trim();}saveST();render();}
+function addSection(cid,domId,mid){var title=prompt('Titre de la section :');if(!title||!title.trim())return;pushUndo();var cd=getCD(cid);if(!cd.customSections[mid])cd.customSections[mid]=[];cd.customSections[mid].push({t:title.trim(),n:[],id:'cs'+Date.now()});saveST();var dom=getDomains(cid).find(function(d){return d.id===domId;});if(dom)renderDomain(cid,dom);}
+function delSection(cid,domId,mid,si,src){if(!confirm('Supprimer cette section ?'))return;pushUndo();var cd=getCD(cid);if(src==='custom'){if(cd.customSections&&cd.customSections[mid])cd.customSections[mid].splice(si,1);}else{cd.renamedSections[mid+'|'+si]='__DEL__';getDomains(cid).forEach(function(d){getModules(cid,d).forEach(function(m){if(m.id===mid){var sec=(m.sections||[])[si];if(sec)(sec.n||[]).forEach(function(_,ni){var k=nKey(domId,mid,si,ni);if(!cd.delNotions.includes(k))cd.delNotions.push(k);});}});});}saveST();var dom=getDomains(cid).find(function(d){return d.id===domId;});if(dom)renderDomain(cid,dom);}
+function delDomain(cid,did){if(!confirm('Supprimer ce domaine ?'))return;pushUndo();var cd=getCD(cid);if(!cd.delDomains.includes(did))cd.delDomains.push(did);if(ST.activeDomain===did)ST.activeDomain='home';saveST();render();}
+function delModule(cid,mid){if(!confirm('Supprimer ce module ?'))return;pushUndo();var cd=getCD(cid);if(!cd.delModules.includes(mid))cd.delModules.push(mid);saveST();render();}
+function addDomain(cid){var name=prompt('Nom du nouveau domaine :');if(!name||!name.trim())return;var icon=prompt('Icône :','🔬')||'🔬';pushUndo();var id='cd'+Date.now();var cd=getCD(cid);cd.customDomains.push({id:id,label:name.trim(),icon:icon,color:'#7c3aed',desc:'Domaine personnalisé.',modules:[]});saveST();ST.activeDomain=id;render();}
+function addModule(cid,domId){var name=prompt('Nom du module :');if(!name||!name.trim())return;var icon=prompt('Icône :','📋')||'📋';pushUndo();var id='cm'+Date.now();var cd=getCD(cid);if(!cd.customModules[domId])cd.customModules[domId]=[];cd.customModules[domId].push({id:id,name:name.trim(),icon:icon,note:'',sections:[{t:'Notions',n:[]}]});saveST();var dom=getDomains(cid).find(function(d){return d.id===domId;});if(dom)renderDomain(cid,dom);}
+
+// ═══ CLASSES ═══
+function showAddClass(){['cls_name','cls_year','cls_etab','cls_teacher'].forEach(function(id){document.getElementById(id).value='';});document.getElementById('cls_editId').value='';document.getElementById('editClsTitle').textContent='Nouvelle classe';renderColorPicker(null);selectLevel('troisieme');openModal('editClsModal');}
+function editClass(cid){var c=ST.classes.find(function(x){return x.id===cid;});if(!c)return;document.getElementById('editClsTitle').textContent='Modifier';document.getElementById('cls_name').value=c.name;document.getElementById('cls_year').value=c.year||'';document.getElementById('cls_etab').value=c.etab||'';document.getElementById('cls_teacher').value=c.teacher||'';document.getElementById('cls_editId').value=cid;renderColorPicker(c.color);selectLevel(c.level||'troisieme');openModal('editClsModal');}
+function selectLevel(lv){document.querySelectorAll('.lvl-sw').forEach(function(b){b.classList.toggle('on',b.dataset.lv===lv);});document.getElementById('cls_level').value=lv;}
+function renderColorPicker(sel){var cp=document.getElementById('colorPicker');var cur=sel||COLORS[21];cp.innerHTML=COLORS.map(function(c){var brd=c===cur?'border:3px solid '+textOnBg(c)+';box-shadow:0 0 0 2.5px '+c:'border:3px solid transparent';return'<div class="cpsw" style="background:'+c+';'+brd+'" onclick="pickColor(this,\''+c+'\')" title="'+c+'"></div>';}).join('');cp.dataset.sel=cur;}
+function pickColor(el,color){document.querySelectorAll('.cpsw').forEach(function(d){d.style.border='3px solid transparent';d.style.boxShadow='none';});el.style.border='3px solid '+textOnBg(color);el.style.boxShadow='0 0 0 2.5px '+color;document.getElementById('colorPicker').dataset.sel=color;}
+function getSelColor(){return document.getElementById('colorPicker').dataset.sel||COLORS[21];}
+function saveClass(){var name=document.getElementById('cls_name').value.trim();if(!name){alert('Nom requis');return;}var eid=document.getElementById('cls_editId').value;var color=getSelColor();var year=document.getElementById('cls_year').value;var etab=document.getElementById('cls_etab').value;var teacher=document.getElementById('cls_teacher').value;var level=document.getElementById('cls_level').value||'troisieme';if(eid){var c=ST.classes.find(function(x){return x.id===eid;});if(c)Object.assign(c,{name:name,year:year,etab:etab,teacher:teacher,color:color,level:level});}else{var id='cls'+Date.now();ST.classes.push({id:id,name:name,year:year,etab:etab,teacher:teacher,color:color,level:level});if(!ST.activeCls)ST.activeCls=id;}saveST();closeModal('editClsModal');render();}
+function deleteClass(cid){if(!confirm('Supprimer cette classe et toutes ses données ?'))return;ST.classes=ST.classes.filter(function(c){return c.id!==cid;});delete ST.classData[cid];if(ST.activeCls===cid)ST.activeCls=ST.classes.length?ST.classes[0].id:null;saveST();render();}
+
+// ═══ JSON / EXPORT ═══
+function saveJSON(){var d=new Date();var cls=ST.classes.find(function(c){return c.id===ST.activeCls;});var nm=cls?cls.name.replace(/\s+/g,'_'):'techno';var fn='techno_cycle4_'+nm+'_au_'+('0'+d.getDate()).slice(-2)+'-'+('0'+(d.getMonth()+1)).slice(-2)+'-'+d.getFullYear()+'.json';var blob=new Blob([JSON.stringify({version:'2.0',app:'TechnoC4',exportDate:d.toISOString(),classes:ST.classes,classData:ST.classData},null,2)],{type:'application/json'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=fn;a.click();URL.revokeObjectURL(a.href);}
+function loadJSON(inp){var file=inp.files[0];if(!file)return;var reader=new FileReader();reader.onload=function(e){try{var data=JSON.parse(e.target.result);if(!data.classes||!data.classData)throw new Error('Format invalide');if(confirm('Importer '+data.classes.length+' classe(s) ?')){data.classes.forEach(function(c){if(!ST.classes.find(function(x){return x.id===c.id;}))ST.classes.push(c);});Object.assign(ST.classData,data.classData);if(!ST.activeCls&&ST.classes.length)ST.activeCls=ST.classes[0].id;saveST();render();alert('Import réussi !');}}catch(err){alert('JSON invalide : '+err.message);}inp.value='';};reader.readAsText(file);}
+
+// ═══ REPORT ═══
+function buildChronoList(cid){var cd=getCD(cid);var list=[];getDomains(cid).forEach(function(d){getModules(cid,d).forEach(function(m){var abbr=safeHtml(modNm(cid,m)).substring(0,26);iterN(cid,d.id,m,function(k,txt){var sv=cd.statuses[k]||{s:0,d:null};if(sv.s>0)list.push({date:sv.d||'',s:sv.s,dom:domNm(cid,d),domIcon:d.icon,mod:modNm(cid,m),modAbbr:abbr,txt:txt,key:k,spArr:cd.spiral[k]||[],isSpiralEntry:false,isDiag:isDiagram(txt)});(cd.spiral[k]||[]).forEach(function(spItem){list.push({date:spItem.date,s:sv.s,dom:domNm(cid,d),domIcon:d.icon,mod:modNm(cid,m),modAbbr:abbr,txt:txt,key:k,spArr:cd.spiral[k]||[],isSpiralEntry:true,spDate:spItem.date,isDiag:isDiagram(txt)});});});});});list.sort(function(a,b){return a.date<b.date?-1:1;});return list;}
+function openReport(){var sel=document.getElementById('rpt_cls');sel.innerHTML='<option value="">— choisir —</option>'+ST.classes.map(function(c){var lv=lvlInfo(c);return'<option value="'+c.id+'">'+safeHtml(c.name)+' ('+lv.label+' · '+(c.year||'—')+')</option>';}).join('');if(ST.activeCls)sel.value=ST.activeCls;rptClsChange();openModal('rptModal');}
+function rptClsChange(){var cid=document.getElementById('rpt_cls').value;var info=document.getElementById('rpt_info');if(!cid){info.style.display='none';return;}var cls=ST.classes.find(function(c){return c.id===cid;});if(!cls){info.style.display='none';return;}var st=clsStats(cid);var lv=lvlInfo(cls);info.style.display='block';info.textContent=lv.label+' · Techno BO 2024 · '+(cls.year||'—')+' · '+(cls.etab||'—')+' · '+st.pct+'% maîtrisé · '+st.prj+' projets';rptTypeChange();}
+function rptTypeChange(){var v=document.getElementById('rpt_type').value;var fd=document.getElementById('rpt_filter_div');if(fd)fd.style.display=v==='chrono'?'block':'none';}
+function generateReport(){var cid=document.getElementById('rpt_cls').value;if(!cid){alert('Sélectionnez une classe');return;}var type=document.getElementById('rpt_type').value;var cls=ST.classes.find(function(c){return c.id===cid;});var cd=getCD(cid);var st=clsStats(cid);var lv=lvlInfo(cls);var syear=parseSchoolYear(cls.year);var dToday=new Date().toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit',year:'numeric'});var body='<div class="rpt-hd"><div class="rpt-app">🔬 Progression Techno Cycle 4 · '+lv.label+'</div><div style="font-size:.71rem;color:var(--dim);margin-top:3px">🏫 '+safeHtml(cls.name)+' · '+(cls.year||'—')+' · '+(cls.etab||'—')+'</div></div><div class="rpt-stats"><div class="rpt-stat"><div class="rpt-sn">'+st.tot+'</div><div class="rpt-sl">Notions</div></div><div class="rpt-stat"><div class="rpt-sn" style="color:var(--green)">'+st.pct+'%</div><div class="rpt-sl">Maîtrisé</div></div><div class="rpt-stat"><div class="rpt-sn" style="color:var(--teal)">'+st.sp+'</div><div class="rpt-sl">Spiralaires</div></div><div class="rpt-stat"><div class="rpt-sn" style="color:var(--ora)">'+st.prj+'</div><div class="rpt-sl">Projets</div></div></div>';
+if(type==='thematic'){getDomains(cid).forEach(function(d){var dp=domPct(cid,d);body+='<div class="rpt-dom"><div class="rpt-dn">'+d.icon+' '+safeHtml(domNm(cid,d))+' <span style="color:var(--dim);font-weight:400;font-size:.63rem">'+dp+'%</span></div>';getModules(cid,d).forEach(function(m){var mt=0,md=0;iterN(cid,d.id,m,function(k){mt++;if((cd.statuses[k]||{}).s===3)md++;});var mp=mt===0?0:Math.round(md/mt*100);body+='<div class="rpt-mod"><div class="rpt-mn">'+safeHtml(modNm(cid,m))+(cd.evals[m.id]?'<span class="rpt-ev">ÉVALUÉ</span>':'')+' <span style="color:var(--dim);font-weight:400">'+mp+'% ('+md+'/'+mt+')</span></div><div style="padding-left:8px">';iterN(cid,d.id,m,function(k,txt){var s=(cd.statuses[k]||{s:0}).s;var dt=(cd.statuses[k]||{}).d;var ico=s===3?'✅':s===2?'🔵':s===1?'🌱':'○';var sp=cd.spiral[k]||[];var diag=isDiagram(txt);body+='<div class="rpt-n"><span style="width:12px;flex-shrink:0">'+ico+'</span><span style="flex:1">'+safeHtml(txt)+'</span>'+(diag?'<span class="rpt-diag">📐</span>':'')+(dt?'<span class="rpt-nd">'+fmtDate(dt)+'</span>':'')+(sp.length?'<span class="rpt-spiral-badge">↩×'+sp.length+'</span>':'')+'</div>';});body+='</div></div>';});body+='</div>';});var prjs=cd.projects||[];if(prjs.length){body+='<div class="rpt-dom"><div class="rpt-dn" style="color:var(--ora)">🗂️ Projets</div>';prjs.forEach(function(prj){body+='<div class="rpt-n"><span>'+PSICO[prj.status||0]+'</span><span style="flex:1;font-weight:600">'+safeHtml(prj.name)+'</span>'+(prj.theme?'<span style="font-size:.58rem;color:var(--vio)">'+safeHtml(prj.theme)+'</span>':'')+'<span class="'+PSCLS[prj.status||0]+'" style="font-size:.58rem;padding:1px 5px;border-radius:5px;font-weight:600">'+PSLBL[prj.status||0]+'</span></div>';});body+='</div>';}
+}else{var groupEl=document.querySelector('input[name="rpt_group"]:checked');var gval=groupEl?groupEl.value:'month';var list=buildChronoList(cid);var groups={};var gorder=[];list.forEach(function(it){var g=getGroupKey(it.date,gval,syear);if(!groups[g.key]){groups[g.key]={label:g.name,key:g.key,idx:g.idx,items:[]};gorder.push(g.key);}groups[g.key].items.push(it);});gorder.sort(function(a,b){return groups[a].idx<groups[b].idx?-1:1;});if(!list.length)body+='<div style="color:var(--dim);font-size:.74rem">Aucune notion travaillée.</div>';gorder.forEach(function(gk){var g=groups[gk];var notSp=g.items.filter(function(i){return!i.isSpiralEntry;});var spItems=g.items.filter(function(i){return i.isSpiralEntry;});body+='<div class="rpt-period">📅 '+safeHtml(g.label)+' — '+notSp.length+' notion'+(notSp.length>1?'s':'')+(spItems.length?' + '+spItems.length+' ↩':'')+'</div>';g.items.forEach(function(it){var ico=it.s===3?'✅':it.s===2?'🔵':it.s===1?'🌱':'○';if(it.isSpiralEntry){body+='<div class="rpt-chr sp-row"><span style="color:var(--teal)">'+fmtDate(it.date)+'</span><span class="rpt-spiral-badge">↩ Spirale</span><span><b>'+safeHtml(it.modAbbr)+'</b> · <span style="color:var(--dim)">'+safeHtml(it.txt)+'</span></span></div>';}else{body+='<div class="rpt-chr"><span style="color:var(--dim)">'+fmtDate(it.date)+'</span><span style="font-size:.6rem;background:var(--vio-bg);color:var(--vio);padding:1px 4px;border-radius:5px;font-weight:600">'+safeHtml(it.dom.slice(0,6))+'</span><span>'+ico+' '+(it.isDiag?'<span class="rpt-diag">📐</span> ':'')+' <b>'+safeHtml(it.modAbbr)+'</b> · <span style="color:var(--dim)">'+safeHtml(it.txt)+'</span>'+(it.spArr&&it.spArr.length?'<span class="rpt-spiral-badge" style="margin-left:3px">↩×'+it.spArr.length+'</span>':'')+'</span></div>';}});}); }
+body+='<div style="text-align:center;font-size:.6rem;color:var(--lt);padding-top:8px;border-top:1px solid var(--bd);margin-top:10px">Généré le '+dToday+' · Progression Techno Cycle 4 · © 2026 Tom Rougeaud</div>';
+document.getElementById('rptOutput').innerHTML='<div class="rpt-out">'+body+'</div>';}
+
+function exportPDF(){var cid=document.getElementById('rpt_cls').value||ST.activeCls;if(!cid){alert('Sélectionnez une classe');return;}var cls=ST.classes.find(function(c){return c.id===cid;});var cd=getCD(cid);var st=clsStats(cid);var lv=lvlInfo(cls);var dToday=new Date().toLocaleDateString('fr-FR',{day:'2-digit',month:'long',year:'numeric'});var body='<div class="rh"><div class="rh-app">🔬 Progression Techno Cycle 4 · BO 2024</div><div class="rh-cls">'+safeHtml(cls.name)+' <span style="font-size:9pt;color:#7c3aed">'+lv.label+'</span></div><div class="rh-meta">'+(cls.year||'—')+' · '+(cls.etab||'—')+' · '+(cls.teacher||'—')+' · Généré le '+dToday+'</div></div><div class="gb-w"><div class="gb" style="width:'+st.pct+'%;background:'+cls.color+'"></div></div><div style="text-align:center;font-size:8pt;color:#888;margin-bottom:14px">'+st.pct+'% maîtrisé · '+st.done+'/'+st.tot+' notions · '+lv.label+'</div><div class="stats"><div class="sb"><div class="sn">'+st.tot+'</div><div class="sl">Notions</div></div><div class="sb"><div class="sn" style="color:#1a8c3d">'+st.done+'</div><div class="sl">Maîtrisées</div></div><div class="sb"><div class="sn" style="color:#0e7490">'+st.sp+'</div><div class="sl">Spiralaires</div></div><div class="sb"><div class="sn" style="color:#c2410c">'+st.prj+'</div><div class="sl">Projets</div></div></div>';
+getDomains(cid).forEach(function(d){var col=domCol(cid,d);var dp=domPct(cid,d);var mods=getModules(cid,d);var dt=0,dd=0;mods.forEach(function(m){iterN(cid,d.id,m,function(k){dt++;if((cd.statuses[k]||{}).s===3)dd++;});});body+='<div class="dom"><div class="dh" style="border-left:4px solid '+col+'"><span style="font-size:11pt">'+d.icon+'</span><span style="font-weight:800;font-size:10.5pt;flex:1;color:'+col+'">'+safeHtml(domNm(cid,d))+'</span><div style="width:80px;height:5px;background:#ddd6fe;border-radius:3px;overflow:hidden;margin-right:8px"><div style="width:'+dp+'%;height:100%;background:'+col+';border-radius:3px"></div></div><span style="font-weight:700;font-size:10pt;color:'+col+'">'+dp+'%</span></div>';mods.forEach(function(m){var mt=0,md=0;iterN(cid,d.id,m,function(k){mt++;if((cd.statuses[k]||{}).s===3)md++;});var mp=mt===0?0:Math.round(md/mt*100);body+='<div class="mod"><div class="mh"><span style="width:20px;height:20px;border-radius:4px;background:'+col+'1a;color:'+col+';display:inline-flex;align-items:center;justify-content:center;font-size:9pt">'+m.icon+'</span><span style="font-weight:700;font-size:9.5pt;flex:1">'+safeHtml(modNm(cid,m))+(cd.evals[m.id]?'<span style="font-size:7pt;background:#e4f7ea;color:#1a8c3d;padding:1px 5px;border-radius:4px;font-weight:700">ÉVALUÉ</span>':'')+'</span><span style="font-size:9pt;font-weight:700;color:'+col+'">'+mp+'%</span></div><table class="nt">';iterN(cid,d.id,m,function(k,txt){var s=(cd.statuses[k]||{s:0}).s;var dt2=(cd.statuses[k]||{}).d;var ico=s===3?'✅':s===2?'🔵':s===1?'🌱':'○';var bg2=s===3?'#e4f7ea90':s===2?'#ede9fe90':s===1?'#fef5de90':'transparent';var sp=cd.spiral[k]||[];var diag=isDiagram(txt);body+='<tr style="background:'+bg2+(diag?';border-left:3px solid #7c3aed':'')+'"><td style="width:14px;text-align:center;padding:2px">'+ico+'</td><td style="font-size:9pt;padding:2px 4px;'+(s===3?'text-decoration:line-through;color:#888':'')+'">'+safeHtml(txt)+'</td><td style="font-size:7pt;color:#bbb;padding:2px 4px;white-space:nowrap">'+(dt2?fmtDate(dt2):'')+'</td><td style="font-size:7.5pt;padding:2px 4px;white-space:nowrap;color:#7c3aed">'+(diag?'📐':'')+(sp.length?sp.map(function(si){return'<div style="color:#0e7490;font-size:6.5pt">↩ '+fmtDate(si.date)+'</div>';}).join(''):'')+'</td></tr>';});body+='</table></div>';});body+='</div>';});
+var prjs2=cd.projects||[];if(prjs2.length){body+='<div class="dom"><div class="dh" style="border-left:4px solid #c2410c"><span>🗂️</span><span style="font-weight:800;font-size:10.5pt;flex:1;color:#c2410c">Projets</span></div><table class="nt" style="margin-left:0">';prjs2.forEach(function(prj){body+='<tr><td style="font-size:9pt;padding:3px 6px;font-weight:700">'+safeHtml(prj.name)+'</td><td style="font-size:8.5pt;color:#7c3aed;padding:3px 6px">'+safeHtml(prj.theme||'')+'</td><td style="font-size:8.5pt;padding:3px 6px">'+PSICO[prj.status||0]+' '+PSLBL[prj.status||0]+'</td></tr>';});body+='</table></div>';}
+var win=window.open('','_blank');win.document.write('<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><title>'+safeHtml(cls.name)+'</title><style>*{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif;font-size:10.5pt;color:#1c1c1f;background:#fff;padding:16px}.rh{text-align:center;padding-bottom:11px;border-bottom:3px solid #7c3aed;margin-bottom:13px}.rh-app{font-size:12pt;font-weight:800;color:#7c3aed}.rh-cls{font-size:11pt;font-weight:700;margin-top:3px}.rh-meta{font-size:8pt;color:#666;margin-top:2px}.gb-w{height:7px;background:#ede9fe;border-radius:4px;overflow:hidden;margin-bottom:4px}.gb{height:100%;border-radius:4px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px}.sb{text-align:center;border:1px solid #ddd;border-radius:6px;padding:7px}.sn{font-size:13pt;font-weight:800}.sl{font-size:7pt;color:#888}.dom{margin-bottom:14px;page-break-inside:avoid}.dh{display:flex;align-items:center;gap:8px;padding:7px 10px;background:#f5f3ff;border-radius:6px;margin-bottom:7px}.mod{margin-left:12px;margin-bottom:7px;page-break-inside:avoid}.mh{display:flex;align-items:center;gap:6px;padding:5px 8px;background:#faf9ff;border-radius:5px;margin-bottom:4px}.nt{width:100%;border-collapse:collapse;margin-left:8px}.nt tr{border-bottom:0.5px solid #eee}@media print{body{padding:0}@page{margin:1.2cm;size:A4 portrait}.dom{page-break-inside:avoid}*{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}}</style></head><body>'+body+'<div style="text-align:center;font-size:7pt;color:#bbb;margin-top:14px;border-top:1px solid #eee;padding-top:6px">© 2026 Tom Rougeaud · Progression Techno Cycle 4 · BO 2024</div></body></html>');win.document.close();setTimeout(function(){win.print();},700);}
+
+function exportHTML(){var cid=document.getElementById('rpt_cls').value||ST.activeCls;if(!cid){alert('Sélectionnez une classe');return;}var cls=ST.classes.find(function(c){return c.id===cid;});var cd=getCD(cid);var st=clsStats(cid);var lv=lvlInfo(cls);var type=(document.getElementById('rpt_type')||{}).value||'thematic';var syear=parseSchoolYear(cls.year);var groupEl=document.querySelector('input[name="rpt_group"]:checked');var gval=groupEl?groupEl.value:'month';var dToday=new Date().toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit',year:'numeric'});var tc=textOnBg(cls.color);var SI2=['○','🌱','🔵','✅'],SL2=['','En cours','En révision','Maîtrisé'];function fd(d){if(!d)return'';var p=d.split('-');return p.length===3?p[2]+'/'+p[1]+'/'+p[0]:d;}var modeLabel=type==='chrono'?(gval==='month'?'Chronologique par mois':'Chronologique par période'):'Thématique';var content='';
+if(type==='thematic'){getDomains(cid).forEach(function(d){var col=domCol(cid,d);var dp=domPct(cid,d);var modHtml='';getModules(cid,d).forEach(function(m){var secHtml='';var mp=modPct(cid,d.id,m);var evTag=cd.evals[m.id]?'<span style="font-size:.57rem;background:#e4f7ea;color:#1a8c3d;padding:1px 5px;border-radius:5px;font-weight:700">ÉVALUÉ</span>':'';getSections(cid,d.id,m).forEach(function(sec){var nHtml='';(sec.n||[]).forEach(function(n,ni){var k=nKey(d.id,m.id,sec.si,ni);if(cd.delNotions.includes(k))return;var txt=cd.renamedNotions[k]||n;var sv=cd.statuses[k]||{s:0,d:null};var sp=cd.spiral[k]||[];var diag=isDiagram(txt);var bg2=sv.s>0?['','#fef5de','#ede9fe','#e4f7ea'][sv.s]:'';var co2=sv.s>0?['','#c97800','#6d28d9','#1a8c3d'][sv.s]:'#ccc';nHtml+='<div style="display:flex;align-items:flex-start;gap:6px;padding:3px 4px;border-radius:4px'+(sv.s>0?';background:'+bg2:'')+(diag?';border-left:3px solid #7c3aed;padding-left:6px':'')+'">'+'<span style="width:17px;height:17px;border-radius:3px;border:1.5px solid '+co2+';background:'+(bg2||'#fff')+';display:inline-flex;align-items:center;justify-content:center;font-size:.48rem;color:'+co2+';flex-shrink:0;margin-top:1px">'+SI2[sv.s]+'</span>'+'<span style="flex:1;font-size:.74rem;'+(sv.s===3?'text-decoration:line-through;color:#999':'')+';line-height:1.4">'+safeHtml(txt)+'</span>'+(sv.s?'<span style="font-size:.52rem;padding:1px 4px;border-radius:5px;background:'+bg2+';color:'+co2+'">'+SL2[sv.s]+'</span>':'')+(sv.d?'<span style="font-size:.52rem;color:#bbb;margin-left:3px">'+fd(sv.d)+'</span>':'')+(sp.length?sp.map(function(si){return'<span style="font-size:.52rem;color:#0e7490;background:#ecfeff;padding:1px 5px;border-radius:5px;margin-left:2px">↩ '+fd(si.date)+'</span>';}).join(''):'')+'</div>';});if(nHtml)secHtml+='<div style="font-size:.55rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#999;padding:8px 0 3px">'+safeHtml(sec.t)+'</div>'+nHtml;});modHtml+='<details style="margin-bottom:7px;border:1px solid #e0d9ff;border-radius:8px;overflow:hidden"><summary style="display:flex;align-items:center;gap:8px;padding:9px 11px;background:#fff;cursor:pointer;user-select:none;list-style:none"><span style="width:26px;height:26px;border-radius:6px;background:'+col+'18;color:'+col+';display:inline-flex;align-items:center;justify-content:center;font-size:.75rem;flex-shrink:0">'+m.icon+'</span><span style="flex:1;font-weight:700;font-size:.79rem">'+safeHtml(modNm(cid,m))+'</span>'+evTag+'<span style="font-weight:700;font-size:.75rem;color:'+col+'">'+mp+'%</span></summary><div style="padding:0 11px 10px;background:#fff;border-top:1px solid #eee">'+secHtml+'</div></details>';});content+='<details open style="margin-bottom:11px;border:1px solid '+col+'30;border-radius:10px;overflow:hidden"><summary style="display:flex;align-items:center;gap:8px;padding:11px 13px;background:'+col+'0d;cursor:pointer;user-select:none;list-style:none"><span style="font-size:1.05rem">'+d.icon+'</span><span style="flex:1;font-weight:800;font-size:.86rem;color:'+col+'">'+safeHtml(domNm(cid,d))+'</span><span style="font-size:.7rem;font-weight:700;color:'+col+'">'+dp+'%</span></summary><div style="padding:9px 11px;background:#faf9ff">'+modHtml+'</div></details>';});}else{var list2=buildChronoList(cid);var grps={};var gord=[];list2.forEach(function(it){var g=getGroupKey(it.date,gval,syear);if(!grps[g.key]){grps[g.key]={label:g.name,key:g.key,idx:g.idx,items:[]};gord.push(g.key);}grps[g.key].items.push(it);});gord.sort(function(a,b){return grps[a].idx<grps[b].idx?-1:1;});gord.forEach(function(gk){var g=grps[gk];var notSp=g.items.filter(function(i){return!i.isSpiralEntry;});var spC=g.items.filter(function(i){return i.isSpiralEntry;}).length;var mastered=notSp.filter(function(i){return i.s===3;}).length;var pct=notSp.length?Math.round(mastered/notSp.length*100):0;content+='<details open style="margin-bottom:14px;border:1.5px solid #7c3aed30;border-radius:12px;overflow:hidden"><summary style="display:flex;align-items:center;gap:10px;padding:12px 14px;background:linear-gradient(135deg,#f5f3ff,#faf9ff);cursor:pointer;user-select:none;list-style:none"><span style="font-size:1.1rem">📅</span><div style="flex:1"><div style="font-size:.88rem;font-weight:800;color:#7c3aed">'+safeHtml(g.label)+'</div><div style="height:5px;background:#ddd6fe;border-radius:3px;overflow:hidden;margin-top:4px;max-width:200px"><div style="height:100%;width:'+pct+'%;background:#7c3aed;border-radius:3px"></div></div></div><div style="text-align:right;flex-shrink:0"><div style="font-size:.8rem;font-weight:800;color:#7c3aed">'+pct+'%</div><div style="font-size:.62rem;color:#888">'+notSp.length+' notions'+(spC?' + '+spC+' ↩':'')+'</div></div></summary><div style="padding:10px 12px;background:#faf9ff"><table style="width:100%;border-collapse:collapse;font-size:.72rem">';g.items.forEach(function(it){var ico=it.s===3?'✅':it.s===2?'🔵':it.s===1?'🌱':'○';if(it.isSpiralEntry){content+='<tr style="background:#ecfeff"><td style="padding:3px 5px;color:#0e7490;font-size:.65rem;white-space:nowrap">'+fd(it.date)+'</td><td style="padding:3px 5px;color:#0e7490;font-size:.65rem">↩ Spirale</td><td style="padding:3px 5px">'+safeHtml(it.txt)+'</td></tr>';}else{content+='<tr><td style="padding:3px 5px;color:#999;font-size:.65rem;white-space:nowrap">'+fd(it.date)+'</td><td style="padding:3px 5px">'+ico+'</td><td style="padding:3px 5px">'+(it.isDiag?'📐 ':'')+safeHtml(it.txt)+'</td></tr>';}});content+='</table></div></details>';});}
+var html='<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>'+safeHtml(cls.name)+'</title><style>*{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif;background:#f5f3ff;color:#1c1c1f;font-size:14px;padding:0 0 40px}details>summary{list-style:none}details>summary::-webkit-details-marker{display:none}</style></head><body>'
++'<div style="background:'+cls.color+';color:'+tc+';padding:14px 16px;position:sticky;top:0;z-index:10;box-shadow:0 2px 8px rgba(0,0,0,.15)"><div style="max-width:820px;margin:auto;display:flex;align-items:center;gap:9px;flex-wrap:wrap"><div><div style="font-size:.9rem;font-weight:900;text-transform:uppercase;letter-spacing:.04em">🔬 '+safeHtml(cls.name)+' · '+lv.label+'</div><div style="font-size:.65rem;opacity:.8">Techno Cycle 4 · BO 2024 · '+(cls.year||'—')+' · '+(cls.etab||'—')+' · '+modeLabel+' · '+dToday+'</div></div><div style="margin-left:auto;text-align:right"><div style="font-size:1.1rem;font-weight:800">'+st.pct+'%</div><div style="font-size:.62rem;opacity:.8">maîtrisé</div></div></div><div style="max-width:820px;margin:8px auto 0;height:5px;background:rgba(0,0,0,.2);border-radius:3px;overflow:hidden"><div style="height:100%;width:'+st.pct+'%;background:'+(tc==='#fff'?'rgba(255,255,255,.8)':'rgba(0,0,0,.4)')+';border-radius:3px"></div></div></div>'
++'<div style="max-width:820px;margin:14px auto;padding:0 12px">'+content+'</div>'
++'<div style="text-align:center;font-size:.62rem;color:#bbb;padding:12px">© 2026 Tom Rougeaud · <a href="https://www.linkedin.com/in/tomrougeaud/" style="color:#bbb">LinkedIn</a> · <a href="https://tom-rougeaud.github.io/casier-tom-rougeaud" style="color:#bbb">//Tom Rougeaud</a></div></body></html>';
+var d2=new Date();var fn='techno_c4_'+lv.key+'_'+cls.name.replace(/\s+/g,'_')+'_au_'+('0'+d2.getDate()).slice(-2)+'-'+('0'+(d2.getMonth()+1)).slice(-2)+'-'+d2.getFullYear()+'.html';var blob=new Blob([html],{type:'text/html;charset=utf-8'});var a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=fn;a.click();URL.revokeObjectURL(a.href);}
+
+// ═══ MODALS ═══
+function openModal(id){document.getElementById(id).classList.add('on');}
+function closeModal(id){document.getElementById(id).classList.remove('on');}
+function bgClose(e,id){if(e.target===document.getElementById(id))closeModal(id);}
+function toggleSidebar(){var sb=document.getElementById('sidebar'),bg=document.getElementById('sbBg');sb.classList.toggle('open');bg.classList.toggle('on');}
+function closeSidebar(){document.getElementById('sidebar').classList.remove('open');document.getElementById('sbBg').classList.remove('on');}
+
+loadST();if(!ST.activeCls&&ST.classes.length)ST.activeCls=ST.classes[0].id;render();
+</script>
+</body>
+</html>
